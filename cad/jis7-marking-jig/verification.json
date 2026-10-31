@@ -1,0 +1,114 @@
+{
+  "base_C02": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 49768.94206755272,
+    "bounds_mm_xyz_min_max": [
+      -48.50000000000001,
+      -51.00000000000001,
+      0.0,
+      48.500000000000014,
+      51.000000000000014,
+      8.000000000000002
+    ],
+    "step_round_trip": true
+  },
+  "base_C04": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 49354.51308971366,
+    "bounds_mm_xyz_min_max": [
+      -48.5,
+      -51.0,
+      0.0,
+      48.50000000000233,
+      51.000000000000995,
+      8.0
+    ],
+    "step_round_trip": true
+  },
+  "base_C06": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 48934.05224969264,
+    "bounds_mm_xyz_min_max": [
+      -48.5,
+      -51.0,
+      0.0,
+      48.50000000000233,
+      51.000000000000995,
+      8.0
+    ],
+    "step_round_trip": true
+  },
+  "lid_S10": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 28132.01911279484,
+    "bounds_mm_xyz_min_max": [
+      -48.5,
+      -51.0,
+      0.0,
+      48.50000000000233,
+      51.000000000000995,
+      4.0000001
+    ],
+    "step_round_trip": true
+  },
+  "lid_S12": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 28116.21422849657,
+    "bounds_mm_xyz_min_max": [
+      -48.5,
+      -51.0,
+      0.0,
+      48.50000000000233,
+      51.000000000000995,
+      4.0000001
+    ],
+    "step_round_trip": true
+  },
+  "fit_coupon": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 11149.798664909642,
+    "bounds_mm_xyz_min_max": [
+      -32.0,
+      -17.0,
+      0.0,
+      32.0,
+      17.00000000000233,
+      5.5000001
+    ],
+    "step_round_trip": true
+  },
+  "pen_slot_coupon": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 5453.061843037365,
+    "bounds_mm_xyz_min_max": [
+      -27.0,
+      -15.0,
+      0.0,
+      27.0,
+      15.000000000000998,
+      4.0000001
+    ],
+    "step_round_trip": true
+  },
+  "assembly": {
+    "base_lid_overlap_mm3": 0.0,
+    "nominal_sample_overlap_base_mm3": 0.0,
+    "nominal_sample_overlap_lid_mm3": 0.0,
+    "nominal_max_sample_top_gap_mm": 0.30000000000000004,
+    "step_round_trip_solids": 2,
+    "guide_pairs": 16,
+    "guide_center_spacing_mm": 10.0
+  },
+  "guide_checks": {
+    "all_32_slots_open": true,
+    "all_slot_sidewalls_present": true,
+    "all_16_middle_webs_present": true
+  }
+}

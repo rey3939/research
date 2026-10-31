@@ -1,0 +1,128 @@
+{
+  "base_C02.stl": {
+    "triangles": 82872,
+    "degenerate_triangles_after_1e_5mm_merge": 0,
+    "boundary_edges_after_merge": 0,
+    "nonmanifold_edges_after_merge": 0,
+    "signed_volume_mm3": 49769.299173349806,
+    "bounds_min": [
+      -48.5,
+      -51.0,
+      0.0
+    ],
+    "bounds_max": [
+      48.5,
+      51.0,
+      8.0
+    ],
+    "relative_volume_difference_from_step": 7.175274021280635e-06
+  },
+  "base_C04.stl": {
+    "triangles": 79032,
+    "degenerate_triangles_after_1e_5mm_merge": 0,
+    "boundary_edges_after_merge": 0,
+    "nonmanifold_edges_after_merge": 0,
+    "signed_volume_mm3": 49354.92155966347,
+    "bounds_min": [
+      -48.5,
+      -51.0,
+      0.0
+    ],
+    "bounds_max": [
+      48.5,
+      51.0,
+      8.0
+    ],
+    "relative_volume_difference_from_step": 8.276243128218125e-06
+  },
+  "base_C06.stl": {
+    "triangles": 79032,
+    "degenerate_triangles_after_1e_5mm_merge": 0,
+    "boundary_edges_after_merge": 0,
+    "nonmanifold_edges_after_merge": 0,
+    "signed_volume_mm3": 48934.515131744854,
+    "bounds_min": [
+      -48.5,
+      -51.0,
+      0.0
+    ],
+    "bounds_max": [
+      48.5,
+      51.0,
+      8.0
+    ],
+    "relative_volume_difference_from_step": 9.459303510164291e-06
+  },
+  "fit_coupon.stl": {
+    "triangles": 19080,
+    "degenerate_triangles_after_1e_5mm_merge": 0,
+    "boundary_edges_after_merge": 0,
+    "nonmanifold_edges_after_merge": 0,
+    "signed_volume_mm3": 11149.820449150226,
+    "bounds_min": [
+      -32.0,
+      -17.0,
+      0.0
+    ],
+    "bounds_max": [
+      32.0,
+      17.0,
+      5.5
+    ],
+    "relative_volume_difference_from_step": 1.95377882940749e-06
+  },
+  "lid_S10.stl": {
+    "triangles": 59224,
+    "degenerate_triangles_after_1e_5mm_merge": 0,
+    "boundary_edges_after_merge": 0,
+    "nonmanifold_edges_after_merge": 0,
+    "signed_volume_mm3": 28132.28847990531,
+    "bounds_min": [
+      -48.5,
+      -51.0,
+      0.0
+    ],
+    "bounds_max": [
+      48.5,
+      51.0,
+      4.0
+    ],
+    "relative_volume_difference_from_step": 9.575107616400584e-06
+  },
+  "lid_S12.stl": {
+    "triangles": 59224,
+    "degenerate_triangles_after_1e_5mm_merge": 0,
+    "boundary_edges_after_merge": 0,
+    "nonmanifold_edges_after_merge": 0,
+    "signed_volume_mm3": 28116.48679951871,
+    "bounds_min": [
+      -48.5,
+      -51.0,
+      0.0
+    ],
+    "bounds_max": [
+      48.5,
+      51.0,
+      4.0
+    ],
+    "relative_volume_difference_from_step": 9.694442499380935e-06
+  },
+  "pen_slot_coupon.stl": {
+    "triangles": 16818,
+    "degenerate_triangles_after_1e_5mm_merge": 0,
+    "boundary_edges_after_merge": 0,
+    "nonmanifold_edges_after_merge": 0,
+    "signed_volume_mm3": 5453.065411636881,
+    "bounds_min": [
+      -27.0,
+      -15.0,
+      0.0
+    ],
+    "bounds_max": [
+      27.0,
+      15.0,
+      4.0
+    ],
+    "relative_volume_difference_from_step": 6.544212442433878e-07
+  }
+}

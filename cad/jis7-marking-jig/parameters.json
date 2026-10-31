@@ -1,0 +1,77 @@
+{
+  "plate_width_x": 97.0,
+  "plate_length_y": 102.0,
+  "base_seat_height": 5.5,
+  "pocket_floor_height": 4.0,
+  "sample_nominal_thickness": 1.0,
+  "sample_max_design_thickness": 1.2,
+  "lid_thickness": 4.0,
+  "guide_membrane_thickness": 0.6,
+  "pocket_clearance_per_side": 0.4,
+  "pocket_clearance_alternative": 0.6,
+  "mark_spacing": 10.0,
+  "guide_slot_width": 1.0,
+  "guide_slot_alternative": 1.2,
+  "guide_slot_length": 4.0,
+  "pen_access_well_length_x": 24.0,
+  "pen_access_well_width_y": 8.2,
+  "top_edge_chamfer": 0.2,
+  "pocket_lead_in_per_side": 0.25,
+  "pocket_lead_in_height": 0.3,
+  "bolt_clearance_diameter": 6.6,
+  "registration_pin_diameter": 3.0,
+  "registration_pin_height": 2.5,
+  "registration_hole_diameter": 3.4,
+  "registration_slot_length": 4.6,
+  "row_pitch": 10.819571428571427,
+  "column_centers_original": [
+    6.0,
+    45.94199993294477
+  ],
+  "row_start_original": 3.0,
+  "original_plate_center": [
+    26.77944830551339,
+    40.92772430255406
+  ],
+  "original_bolt_centers": [
+    [
+      -15.799746003208242,
+      -4.616571597647692
+    ],
+    [
+      -16.19940788215981,
+      86.27115123292133
+    ],
+    [
+      69.40633234170568,
+      85.58779626741872
+    ],
+    [
+      68.93598573100898,
+      -4.052137081516353
+    ]
+  ],
+  "registration_pin_centers": [
+    [
+      -43.5,
+      -20.0
+    ],
+    [
+      43.5,
+      20.0
+    ]
+  ],
+  "fit_coupon_clearances": [
+    0.2,
+    0.4,
+    0.6
+  ],
+  "pen_coupon_slot_widths": [
+    0.8,
+    0.9,
+    1.0,
+    1.1,
+    1.2,
+    1.4
+  ]
+}

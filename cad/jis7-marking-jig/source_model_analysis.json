@@ -1,0 +1,31 @@
+{
+  "source_files": [
+    {
+      "name": "7号1.0mmの型 v1.f3d",
+      "sha256": "84f53895d297080aa8f7b45c86d8d557784522265a89180fadac4b8b1e5e610e",
+      "bytes": 454343
+    },
+    {
+      "name": "7号1.0mmの型の蓋 v1.f3d",
+      "sha256": "6dc5e73aceecfd1963eec3ca2f64a68419d8a61c85f0ed549ca0d95de82f6f0f",
+      "bytes": 354314
+    }
+  ],
+  "extraction": "F3D ZIP method93(Zstandard), each extracted member checked against size and CRC32; ASM BinaryFile4 read through ezdxf ACIS SAB parser; planar loop geometry rebuilt as native OCCT lines/circular arcs.",
+  "units_in_mm": 10.0,
+  "source_nominal_profile_mm": {
+    "length": 35.000000312924385,
+    "grip_width": 6.00000004470349,
+    "parallel_width": 2.0,
+    "parallel_length": 12.0
+  },
+  "retained_plate_mm": [
+    97.0,
+    102.0
+  ],
+  "retained_layout": [
+    2,
+    8
+  ],
+  "source_reference": "base ASM body with 266 faces and 21 planar boundary loops; 16 specimen contours, 4 circular holes, 1 rectangular outline. Other bodies include construction/history geometry and are not exported as fixture solids."
+}

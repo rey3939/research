@@ -1,0 +1,13 @@
+{
+  "slides": 5,
+  "pictures": 0,
+  "nonempty_textboxes": 87,
+  "layout_issues": [],
+  "pptx_bytes": 60904,
+  "pdf_pages": 5,
+  "pdf_preview_not_powerpoint_render": true,
+  "sha256": {
+    "tensile_camera_sync_layout_editable.pptx": "5afd466bbdef37b0caf9c98e6da87164a9d60db8b33ef2bfd7e39638fb6d11b5",
+    "tensile_camera_sync_layout.pdf": "000c8c421083bc4a371b06b6e69c79988b32f6246dde33159c935842be103ea2"
+  }
+}

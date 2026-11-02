@@ -1,0 +1,5 @@
+﻿vertical_fov_mm,horizontal_fov_mm,pixels_per_mm_assuming_3840_vertical_px,specimen_2mm_width_px,width_contraction_px_at_axial_strain_1pct_and_nu_0p5
+12,6.75,320.0,640.0,3.2
+14,7.875,274.2857142857143,548.5714285714286,2.742857142857143
+16,9.0,240.0,480.0,2.4
+18,10.125,213.33333333333334,426.6666666666667,2.1333333333333333

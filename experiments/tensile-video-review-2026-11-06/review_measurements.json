@@ -1,0 +1,33 @@
+{
+  "duration_s": 67.165322,
+  "coded_resolution": [
+    3840,
+    2160
+  ],
+  "display_resolution": [
+    2160,
+    3840
+  ],
+  "frame_count": 4038,
+  "nominal_fps": 60,
+  "mean_fps": 60.120310299413134,
+  "actual_pts_interval_min_s": 0.014178000000001134,
+  "actual_pts_interval_median_s": 0.016633000000000564,
+  "actual_pts_interval_max_s": 0.01762300000000039,
+  "time_error_at_last_frame_if_index_divided_by_60_s": 0.13464433333332693,
+  "user_reported_marker_interval_mm": "approximately 10",
+  "user_reported_crosshead_speed_mm_per_min": 10,
+  "first_frame_marker_centers_y_px": [
+    1288.0378049118185,
+    1878.1787838848393
+  ],
+  "first_frame_marker_interval_px": 590.1409789730208,
+  "first_frame_width_at_y1580_px": 119.53736270368324,
+  "first_frame_width_median_over_selected_rows_px": 119.49627956787461,
+  "limitations": [
+    "No same-trial force CSV supplied",
+    "No calibrated physical scale supplied",
+    "Measurement repeatability and absolute accuracy not established",
+    "No Young modulus or Poisson ratio estimated"
+  ]
+}

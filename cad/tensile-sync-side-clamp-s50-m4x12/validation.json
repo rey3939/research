@@ -10,9 +10,8 @@
     "opening": 52.2,
     "pad_thickness": 2.0,
     "jaw_wall": 8.0,
-    "tap_pilot_d": 3.14,
-    "male_minor_basic_d": 3.1411917000000003,
-    "usual_tap_drill_d": 3.3,
+    "tap_pilot_d": 3.242,
+    "female_minor_basic_d": 3.2422276,
     "thread_pitch": 0.7,
     "clearance_d": 4.2,
     "pad_pocket_d": 4.2,
@@ -36,7 +35,7 @@
   },
   "parts": {
     "R/01_side_clamp_S50": {
-      "volume_mm3": 8843.17607150866,
+      "volume_mm3": 8828.8606254676,
       "bounds_mm": [
         -33.0,
         -10.0,
@@ -48,7 +47,7 @@
       "stl": {
         "triangles": 1300,
         "nonmanifold_edges": 0,
-        "signed_volume_mm3": 8843.305571927602
+        "signed_volume_mm3": 8828.998397764231
       }
     },
     "R/02_protective_pad": {
@@ -84,7 +83,7 @@
       }
     },
     "R/04_corner": {
-      "volume_mm3": 11930.251530726664,
+      "volume_mm3": 11909.800893525146,
       "bounds_mm": [
         40.0,
         -24.0,
@@ -96,7 +95,7 @@
       "stl": {
         "triangles": 1708,
         "nonmanifold_edges": 0,
-        "signed_volume_mm3": 11930.43648221298
+        "signed_volume_mm3": 11909.997694210007
       }
     },
     "R/05_vertical_rail_190": {
@@ -116,7 +115,7 @@
       }
     },
     "R/06_ribbed_depth_carriage": {
-      "volume_mm3": 17647.053647351677,
+      "volume_mm3": 17636.828328750915,
       "bounds_mm": [
         43.0,
         -38.0,
@@ -128,11 +127,11 @@
       "stl": {
         "triangles": 1344,
         "nonmanifold_edges": 0,
-        "signed_volume_mm3": 17647.18667870495
+        "signed_volume_mm3": 17636.96731033802
       }
     },
     "R/07_cross_slide_carriage": {
-      "volume_mm3": 14342.112656200794,
+      "volume_mm3": 14321.662018999272,
       "bounds_mm": [
         58.0,
         -11.0,
@@ -144,7 +143,7 @@
       "stl": {
         "triangles": 3388,
         "nonmanifold_edges": 0,
-        "signed_volume_mm3": 14342.744068912809
+        "signed_volume_mm3": 14322.30532215574
       }
     },
     "R/08_sliding_target_flag": {
@@ -180,7 +179,7 @@
       }
     },
     "L/01_side_clamp_S50": {
-      "volume_mm3": 8843.17607150866,
+      "volume_mm3": 8828.8606254676,
       "bounds_mm": [
         -35.2,
         -10.0,
@@ -192,7 +191,7 @@
       "stl": {
         "triangles": 1300,
         "nonmanifold_edges": 0,
-        "signed_volume_mm3": 8843.305567205582
+        "signed_volume_mm3": 8828.998408283676
       }
     },
     "L/02_protective_pad": {
@@ -228,7 +227,7 @@
       }
     },
     "L/04_corner": {
-      "volume_mm3": 11930.251530726664,
+      "volume_mm3": 11909.800893525146,
       "bounds_mm": [
         -76.0,
         -24.0,
@@ -240,7 +239,7 @@
       "stl": {
         "triangles": 1708,
         "nonmanifold_edges": 0,
-        "signed_volume_mm3": 11930.436482213001
+        "signed_volume_mm3": 11909.99769421
       }
     },
     "L/05_vertical_rail_190": {
@@ -260,7 +259,7 @@
       }
     },
     "L/06_ribbed_depth_carriage": {
-      "volume_mm3": 17647.053647351677,
+      "volume_mm3": 17636.828328750915,
       "bounds_mm": [
         -80.0,
         -38.0,
@@ -272,11 +271,11 @@
       "stl": {
         "triangles": 1344,
         "nonmanifold_edges": 0,
-        "signed_volume_mm3": 17647.18670468502
+        "signed_volume_mm3": 17636.96730682402
       }
     },
     "L/07_cross_slide_carriage": {
-      "volume_mm3": 14342.112656200794,
+      "volume_mm3": 14321.662018999272,
       "bounds_mm": [
         -86.0,
         -11.0,
@@ -288,7 +287,7 @@
       "stl": {
         "triangles": 3388,
         "nonmanifold_edges": 0,
-        "signed_volume_mm3": 14342.744068912863
+        "signed_volume_mm3": 14322.30532215577
       }
     },
     "L/08_sliding_target_flag": {
@@ -324,7 +323,7 @@
       }
     },
     "COMMON/09_tap_test_coupon": {
-      "volume_mm3": 17820.347224155135,
+      "volume_mm3": 17815.234564854756,
       "bounds_mm": [
         0.0,
         0.0,
@@ -336,7 +335,7 @@
       "stl": {
         "triangles": 2556,
         "nonmanifold_edges": 0,
-        "signed_volume_mm3": 17820.740762229456
+        "signed_volume_mm3": 17815.631044204456
       }
     }
   },
@@ -480,7 +479,7 @@
           "role": "pressure screw"
         }
       ],
-      "plastic_solid_mass_g": 79.08075082586743,
+      "plastic_solid_mass_g": 78.9996026974518,
       "measured_fit_inputs_mm": {
         "clamped_span": 50,
         "vertical_height": 14
@@ -637,7 +636,7 @@
           "role": "pressure screw"
         }
       ],
-      "plastic_solid_mass_g": 79.08075082586743,
+      "plastic_solid_mass_g": 78.9996026974518,
       "measured_fit_inputs_mm": {
         "clamped_span": 50,
         "vertical_height": 14
@@ -663,7 +662,7 @@
     "Prior reported 20 mm free depth does not establish side-face flatness",
     "Illustrative attachment height 120 mm is not measured; machine, bolt and load cell full shapes not modeled",
     "Physical fit, holding force, printed thread strength and synchronization accuracy not validated",
-    "Pilot 3.14 is user-specified male-thread minor diameter, not the usual 3.3 mm tap drill; verify tapping on coupon first",
+    "Pilot 3.242 follows the user-specified M4x0.7 female-thread basic minor diameter; threads are cut after printing",
     "Flat screw head diameter assumed >=7 mm; envelope diameter10 x height5 checked"
   ]
 }

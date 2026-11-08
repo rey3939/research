@@ -14,7 +14,7 @@ P={
  'measured_clamped_span':50.,'measured_vertical_height':14.,
  'prior_available_edge_depth':20.,'side_contact_depth_verified':False,
  'jaw_insertion':14.,'jaw_contact_height':10.,'fit_clearance_total':.2,'opening':52.2,
- 'pad_thickness':2.,'jaw_wall':8.,'tap_pilot_d':3.14,'male_minor_basic_d':4-1.226869*.7,'usual_tap_drill_d':3.3,'thread_pitch':.7,'clearance_d':4.2,'pad_pocket_d':4.2,'tap_exit_d':4.2,
+ 'pad_thickness':2.,'jaw_wall':8.,'tap_pilot_d':3.242,'female_minor_basic_d':4-1.082532*.7,'thread_pitch':.7,'clearance_d':4.2,'pad_pocket_d':4.2,'tap_exit_d':4.2,
  'all_screw_lengths':12.,'screw_head_min_assumed_d':7.,'head_envelope_d':10.,'head_envelope_h':5.,
  'anchor_x_ILLUSTRATIVE':0.,'anchor_z_ILLUSTRATIVE':120.,
  'vertical_rail_length':190.,'vertical_rail_center_z':52.,
@@ -66,7 +66,7 @@ def flag():
  return cut(s,[sx(18,110,22,P['clearance_d'],-16,-10)])
 def coupon():
  s=box(0,66,0,28,0,10)
- return cut(s,[cz(x,7,d/2,-1,11) for x,d in [(11,4.0),(33,4.2),(55,4.4)]]+[cz(x,21,d/2,-1,11) for x,d in [(11,3.14),(33,3.2),(55,3.3)]])
+ return cut(s,[cz(x,7,d/2,-1,11) for x,d in [(11,4.0),(33,4.2),(55,4.4)]]+[cz(x,21,d/2,-1,11) for x,d in [(11,3.2),(33,3.242),(55,3.3)]])
 
 def module(side='R'):
  ax=P['anchor_x_ILLUSTRATIVE'];az=P['anchor_z_ILLUSTRATIVE'];dz=P['target_z']-22;dy=P['target_face_y']+15;tx=P['target_x']-ax
@@ -194,7 +194,7 @@ def main():
    picture(cq.Compound.makeCompound(list(context.values())),views/'installation_R.png',(0,-1,0))
    picture(cq.Compound.makeCompound(list(clamped.values())),views/'clamp_detail.png')
    picture(cq.Compound.makeCompound([sh['06_ribbed_depth_carriage'],sh['07_cross_slide_carriage'],sh['08_sliding_target_flag']]),views/'cross_slide_detail.png')
- report['limitations']=['Red-circled front projection, 50 mm between side faces; not the 14 mm top-to-bottom direction','Side contact 10 mm vertical x 14 mm insertion depth is a design assumption pending physical fit','Prior reported 20 mm free depth does not establish side-face flatness','Illustrative attachment height 120 mm is not measured; machine, bolt and load cell full shapes not modeled','Physical fit, holding force, printed thread strength and synchronization accuracy not validated','Pilot 3.14 is user-specified male-thread minor diameter, not the usual 3.3 mm tap drill; verify tapping on coupon first','Flat screw head diameter assumed >=7 mm; envelope diameter10 x height5 checked']
+ report['limitations']=['Red-circled front projection, 50 mm between side faces; not the 14 mm top-to-bottom direction','Side contact 10 mm vertical x 14 mm insertion depth is a design assumption pending physical fit','Prior reported 20 mm free depth does not establish side-face flatness','Illustrative attachment height 120 mm is not measured; machine, bolt and load cell full shapes not modeled','Physical fit, holding force, printed thread strength and synchronization accuracy not validated','Pilot 3.242 follows the user-specified M4x0.7 female-thread basic minor diameter; threads are cut after printing','Flat screw head diameter assumed >=7 mm; envelope diameter10 x height5 checked']
  (out/'validation.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n');(out/'parameters.json').write_text(json.dumps(P,ensure_ascii=False,indent=2)+'\n')
  print(json.dumps({'part_files':len(report['parts']),'screws_per_holder':13,'printed_parts_per_holder':8,'all_screws':'M4x12','R_mass_g':report['installations']['R']['plastic_solid_mass_g'],'checks':'valid BRep / roundtrip STEP / closed STL / head and shaft clearances / 8 mm engagement / measured local patch / lower grips travel'},ensure_ascii=False,indent=2))
 

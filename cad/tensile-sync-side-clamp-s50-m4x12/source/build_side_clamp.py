@@ -13,8 +13,8 @@ from PIL import Image,ImageChops,ImageOps
 P={
  'measured_clamped_span':50.,'measured_vertical_height':14.,
  'prior_available_edge_depth':20.,'side_contact_depth_verified':False,
- 'jaw_insertion':14.,'jaw_contact_height':10.,'opening':54.,
- 'pad_thickness':2.,'jaw_wall':8.,'tap_pilot_d':3.3,'thread_pitch':.7,'clearance_d':4.5,
+ 'jaw_insertion':14.,'jaw_contact_height':10.,'fit_clearance_total':.2,'opening':52.2,
+ 'pad_thickness':2.,'jaw_wall':8.,'tap_pilot_d':3.14,'male_minor_basic_d':4-1.226869*.7,'usual_tap_drill_d':3.3,'thread_pitch':.7,'clearance_d':4.2,'pad_pocket_d':4.2,'tap_exit_d':4.2,
  'all_screw_lengths':12.,'screw_head_min_assumed_d':7.,'head_envelope_d':10.,'head_envelope_h':5.,
  'anchor_x_ILLUSTRATIVE':0.,'anchor_z_ILLUSTRATIVE':120.,
  'vertical_rail_length':190.,'vertical_rail_center_z':52.,
@@ -44,28 +44,29 @@ def overlap(a,b):
 def cx(y,z,r,x0,x1):return cq.Solid.makeCylinder(r,x1-x0,cq.Vector(x0,y,z),cq.Vector(1,0,0))
 def clamp_body():
  # X is the 50 mm face-to-face direction; Z is the 14 mm vertical height.
- # Opening -25..29 = 50 mm metal + 2 mm pad + 2 mm insertion clearance.
- s=box(-33,37,-10,0,-5,5).fuse(box(-33,-25,-.5,14,-5,5),box(29,37,-.5,14,-5,5)).clean()
- return cut(s,[cy(x,0,1.65,-11,1) for x in [-9,9]]+[cx(9,0,1.65,28,38)])
-def pad():return cut(box(25,27,5,13,-4,4),[cx(9,0,2.2,26.6,27.1)])
-def hbar():return cut(box(-16,78,-14,-10,-6,6),[sx(-10,70,0,4.5,-15,-9)])
-def corner():return trans(cut(box(22,58,-24,-14,-17,17),[cy(x,z,1.65,-25,-13) for x,z in [(28,0),(52,0),(40,-11),(40,11)]]),x=18)
-def rail(length):return trans(cut(box(35,45,-28,-24,-length/2,length/2),[sz(-length/2+12,length/2-12,40,4.5,-29,-23)]),x=18)
+ # Opening 52.2 = 50 mm metal + 2 mm pad + 0.2 mm total insertion clearance.
+ right=-25+P['opening'];outer=right+P['jaw_wall']
+ s=box(-33,outer,-10,0,-5,5).fuse(box(-33,-25,-.5,14,-5,5),box(right,outer,-.5,14,-5,5)).clean()
+ return cut(s,[cy(x,0,(P['tap_pilot_d']/2),-11,1) for x in [-9,9]]+[cx(9,0,(P['tap_pilot_d']/2),right-1,outer+1)])
+def pad():return cut(box(25,27,5,13,-4,4),[cx(9,0,P['pad_pocket_d']/2,26.6,27.1)])
+def hbar():return cut(box(-16,78,-14,-10,-6,6),[sx(-10,70,0,P['clearance_d'],-15,-9)])
+def corner():return trans(cut(box(22,58,-24,-14,-17,17),[cy(x,z,(P['tap_pilot_d']/2),-25,-13) for x,z in [(28,0),(52,0),(40,-11),(40,11)]]),x=18)
+def rail(length):return trans(cut(box(35,45,-28,-24,-length/2,length/2),[sz(-length/2+12,length/2-12,40,P['clearance_d'],-29,-23)]),x=18)
 def depth_carriage():
  s=box(25,62,-38,-28,-16,16).fuse(box(46,62,-38,56,-1,3),box(46,48,-38,56,-7,-1),box(60,62,-38,56,-7,-1)).clean()
- return trans(cut(s,[cy(40,z,1.65,-39,-27) for z in [-10,10]]+[sy(-30,50,54,4.5,-2,4)]),x=18)
+ return trans(cut(s,[cy(40,z,(P['tap_pilot_d']/2),-39,-27) for z in [-10,10]]+[sy(-30,50,54,P['clearance_d'],-2,4)]),x=18)
 def cross_carriage():
  s=box(40,68,-11,11,3,28)
  # The thread-bearing section is 10 mm. Larger rear bores provide tap exit.
- tools=[cz(54,y,1.65,2,29) for y in [-5,5]]+[cz(54,y,2.6,13,29) for y in [-5,5]]
- tools += [cy(x,22,1.65,-12,12) for x in [46,62]]+[cy(x,22,2.6,-1,12) for x in [46,62]]
+ tools=[cz(54,y,(P['tap_pilot_d']/2),2,29) for y in [-5,5]]+[cz(54,y,P['tap_exit_d']/2,13,29) for y in [-5,5]]
+ tools += [cy(x,22,(P['tap_pilot_d']/2),-12,12) for x in [46,62]]+[cy(x,22,P['tap_exit_d']/2,-1,12) for x in [46,62]]
  return trans(cut(s,tools),x=18)
 def flag():
  s=box(8,122,-15,-11,17,27).fuse(box(1.1,8,-15,-11,20.5,21.7),box(-1.25,1.25,-15,-11,20.5,23.5)).clean()
- return cut(s,[sx(18,110,22,4.5,-16,-10)])
+ return cut(s,[sx(18,110,22,P['clearance_d'],-16,-10)])
 def coupon():
  s=box(0,66,0,28,0,10)
- return cut(s,[cz(x,7,d/2,-1,11) for x,d in [(11,4.3),(33,4.5),(55,4.7)]]+[cz(x,21,d/2,-1,11) for x,d in [(11,3.2),(33,3.3),(55,3.4)]])
+ return cut(s,[cz(x,7,d/2,-1,11) for x,d in [(11,4.0),(33,4.2),(55,4.4)]]+[cz(x,21,d/2,-1,11) for x,d in [(11,3.14),(33,3.2),(55,3.3)]])
 
 def module(side='R'):
  ax=P['anchor_x_ILLUSTRATIVE'];az=P['anchor_z_ILLUSTRATIVE'];dz=P['target_z']-22;dy=P['target_face_y']+15;tx=P['target_x']-ax
@@ -101,7 +102,7 @@ def screws(side,cfg):
   shaft=cq.Solid.makeCylinder(2,12,pos,direction);head=cq.Solid.makeCylinder(5,5,pos,direction.multiply(-1))
   s=shaft.fuse(head).clean();assert s.isValid() and len(s.Solids())==1
   shapes[f'M4x12_{g}_{i:02d}']=(s,head,shaft,receiver)
-  records.append({'group':g,'length_mm':12,'receiver':receiver,'thread_engagement_mm':8,'tip_to_back_margin_mm':margin,'head_gap_mm':1.6 if g=='P' else 0,'role':'pressure screw' if g=='P' else 'joint clamp'})
+  records.append({'group':g,'length_mm':12,'receiver':receiver,'thread_engagement_mm':8,'tip_to_back_margin_mm':margin,'head_gap_mm':3.4 if g=='P' else 0,'role':'pressure screw' if g=='P' else 'joint clamp'})
  return shapes,records
 
 def save_step(s,path):
@@ -163,7 +164,7 @@ def main():
    for b in names[i+1:]:assert overlap(sh[n],sh[b])<1e-5,(side,n,b)
   ax=P['anchor_x_ILLUSTRATIVE'];az=P['anchor_z_ILLUSTRATIVE'];patch=trans(box(-25,25,0,20,-7,7),ax,0,az)
   if side=='L':patch=mirror(patch)
-  ring=math.pi*(2**2-1.65**2)
+  ring=math.pi*(2**2-(P['tap_pilot_d']/2)**2)
   for (name,(s,head,shaft,receiver)),rec in zip(fast.items(),records):
    for n,p in sh.items():
     assert overlap(head,p)<1e-5,(side,name,'head',n)
@@ -193,7 +194,7 @@ def main():
    picture(cq.Compound.makeCompound(list(context.values())),views/'installation_R.png',(0,-1,0))
    picture(cq.Compound.makeCompound(list(clamped.values())),views/'clamp_detail.png')
    picture(cq.Compound.makeCompound([sh['06_ribbed_depth_carriage'],sh['07_cross_slide_carriage'],sh['08_sliding_target_flag']]),views/'cross_slide_detail.png')
- report['limitations']=['Red-circled front projection, 50 mm between side faces; not the 14 mm top-to-bottom direction','Side contact 10 mm vertical x 14 mm insertion depth is a design assumption pending physical fit','Prior reported 20 mm free depth does not establish side-face flatness','Illustrative attachment height 120 mm is not measured; machine, bolt and load cell full shapes not modeled','Physical fit, holding force, printed thread strength and synchronization accuracy not validated','Flat screw head diameter assumed >=7 mm; envelope diameter10 x height5 checked']
+ report['limitations']=['Red-circled front projection, 50 mm between side faces; not the 14 mm top-to-bottom direction','Side contact 10 mm vertical x 14 mm insertion depth is a design assumption pending physical fit','Prior reported 20 mm free depth does not establish side-face flatness','Illustrative attachment height 120 mm is not measured; machine, bolt and load cell full shapes not modeled','Physical fit, holding force, printed thread strength and synchronization accuracy not validated','Pilot 3.14 is user-specified male-thread minor diameter, not the usual 3.3 mm tap drill; verify tapping on coupon first','Flat screw head diameter assumed >=7 mm; envelope diameter10 x height5 checked']
  (out/'validation.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n');(out/'parameters.json').write_text(json.dumps(P,ensure_ascii=False,indent=2)+'\n')
  print(json.dumps({'part_files':len(report['parts']),'screws_per_holder':13,'printed_parts_per_holder':8,'all_screws':'M4x12','R_mass_g':report['installations']['R']['plastic_solid_mass_g'],'checks':'valid BRep / roundtrip STEP / closed STL / head and shaft clearances / 8 mm engagement / measured local patch / lower grips travel'},ensure_ascii=False,indent=2))
 

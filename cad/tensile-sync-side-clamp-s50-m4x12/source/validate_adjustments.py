@@ -16,7 +16,7 @@ for x in [-30,4.2,46]:
    for n,p in sh.items():
     assert m.overlap(h,p)<1e-5,(x,y,name,'head',n)
     if n!=receiver:assert m.overlap(shaft,p)<1e-5,(x,y,name,'shaft',n)
-   assert abs(shaft.intersect(sh[receiver]).Volume()/(math.pi*(2**2-1.65**2))-8)<1e-5
+   assert abs(shaft.intersect(sh[receiver]).Volume()/(math.pi*(2**2-(m.P['tap_pilot_d']/2)**2))-8)<1e-5
   records.append({'cross_slide_x_mm':x,'depth_slider_y_mm':y,'self_intersections':0,'all_M4_engagement_mm':8})
 (ROOT/'adjustment_validation.json').write_text(json.dumps({'configurations':records,'machine_clearance_included':False,'sample_contact_included':False},ensure_ascii=False,indent=2)+'\n')
 print('Adjustment endpoint combinations passed:',len(records))

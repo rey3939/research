@@ -6,12 +6,17 @@
     "side_contact_depth_verified": false,
     "jaw_insertion": 14.0,
     "jaw_contact_height": 10.0,
-    "opening": 54.0,
+    "fit_clearance_total": 0.2,
+    "opening": 52.2,
     "pad_thickness": 2.0,
     "jaw_wall": 8.0,
-    "tap_pilot_d": 3.3,
+    "tap_pilot_d": 3.14,
+    "male_minor_basic_d": 3.1411917000000003,
+    "usual_tap_drill_d": 3.3,
     "thread_pitch": 0.7,
-    "clearance_d": 4.5,
+    "clearance_d": 4.2,
+    "pad_pocket_d": 4.2,
+    "tap_exit_d": 4.2,
     "all_screw_lengths": 12.0,
     "screw_head_min_assumed_d": 7.0,
     "head_envelope_d": 10.0,
@@ -31,23 +36,23 @@
   },
   "parts": {
     "R/01_side_clamp_S50": {
-      "volume_mm3": 9000.516392016847,
+      "volume_mm3": 8843.17607150866,
       "bounds_mm": [
         -33.0,
         -10.0,
         -5.0,
-        37.0,
+        35.2,
         14.0,
         5.0
       ],
       "stl": {
         "triangles": 1300,
         "nonmanifold_edges": 0,
-        "signed_volume_mm3": 9000.659282682807
+        "signed_volume_mm3": 8843.305571927602
       }
     },
     "R/02_protective_pad": {
-      "volume_mm3": 121.91787662265016,
+      "volume_mm3": 122.45823055906763,
       "bounds_mm": [
         25.0,
         5.0,
@@ -59,11 +64,11 @@
       "stl": {
         "triangles": 432,
         "nonmanifold_edges": 0,
-        "signed_volume_mm3": 121.92150167547996
+        "signed_volume_mm3": 122.46153778357984
       }
     },
     "R/03_horizontal_bar": {
-      "volume_mm3": 3008.382748764807,
+      "volume_mm3": 3112.5823055906762,
       "bounds_mm": [
         -16.0,
         -14.0,
@@ -75,11 +80,11 @@
       "stl": {
         "triangles": 448,
         "nonmanifold_edges": 0,
-        "signed_volume_mm3": 3008.4200156587995
+        "signed_volume_mm3": 3112.6147832463994
       }
     },
     "R/04_corner": {
-      "volume_mm3": 11897.880560024068,
+      "volume_mm3": 11930.251530726664,
       "bounds_mm": [
         40.0,
         -24.0,
@@ -91,11 +96,11 @@
       "stl": {
         "triangles": 1708,
         "nonmanifold_edges": 0,
-        "signed_volume_mm3": 11898.084600757986
+        "signed_volume_mm3": 11930.43648221298
       }
     },
     "R/05_vertical_rail_190": {
-      "volume_mm3": 4548.382748764807,
+      "volume_mm3": 4755.782305590677,
       "bounds_mm": [
         53.0,
         -28.0,
@@ -107,11 +112,11 @@
       "stl": {
         "triangles": 448,
         "nonmanifold_edges": 0,
-        "signed_volume_mm3": 4548.420007671601
+        "signed_volume_mm3": 4755.814790668003
       }
     },
     "R/06_ribbed_depth_carriage": {
-      "volume_mm3": 17523.41871596804,
+      "volume_mm3": 17647.053647351677,
       "bounds_mm": [
         43.0,
         -38.0,
@@ -123,11 +128,11 @@
       "stl": {
         "triangles": 1344,
         "nonmanifold_edges": 0,
-        "signed_volume_mm3": 17523.56734006381
+        "signed_volume_mm3": 17647.18667870495
       }
     },
     "R/07_cross_slide_carriage": {
-      "volume_mm3": 13911.07357775765,
+      "volume_mm3": 14342.112656200794,
       "bounds_mm": [
         58.0,
         -11.0,
@@ -139,11 +144,11 @@
       "stl": {
         "triangles": 3388,
         "nonmanifold_edges": 0,
-        "signed_volume_mm3": 13911.961749772641
+        "signed_volume_mm3": 14342.744068912809
       }
     },
     "R/08_sliding_target_flag": {
-      "volume_mm3": 2902.7827487648065,
+      "volume_mm3": 3021.3823055906746,
       "bounds_mm": [
         -1.25,
         -15.0,
@@ -155,11 +160,11 @@
       "stl": {
         "triangles": 472,
         "nonmanifold_edges": 0,
-        "signed_volume_mm3": 2902.820006530006
+        "signed_volume_mm3": 3021.414778983997
       }
     },
     "R/05b_vertical_rail_240_OPTIONAL": {
-      "volume_mm3": 5648.382748764807,
+      "volume_mm3": 5915.782305590677,
       "bounds_mm": [
         53.0,
         -28.0,
@@ -171,13 +176,13 @@
       "stl": {
         "triangles": 448,
         "nonmanifold_edges": 0,
-        "signed_volume_mm3": 5648.420007671602
+        "signed_volume_mm3": 5915.814790668015
       }
     },
     "L/01_side_clamp_S50": {
-      "volume_mm3": 9000.516392016847,
+      "volume_mm3": 8843.17607150866,
       "bounds_mm": [
-        -37.0,
+        -35.2,
         -10.0,
         -5.0,
         33.0,
@@ -187,11 +192,11 @@
       "stl": {
         "triangles": 1300,
         "nonmanifold_edges": 0,
-        "signed_volume_mm3": 9000.659282682784
+        "signed_volume_mm3": 8843.305567205582
       }
     },
     "L/02_protective_pad": {
-      "volume_mm3": 121.91787662265016,
+      "volume_mm3": 122.45823055906763,
       "bounds_mm": [
         -27.0,
         5.0,
@@ -203,11 +208,11 @@
       "stl": {
         "triangles": 432,
         "nonmanifold_edges": 0,
-        "signed_volume_mm3": 121.92150167547997
+        "signed_volume_mm3": 122.46153778358001
       }
     },
     "L/03_horizontal_bar": {
-      "volume_mm3": 3008.382748764807,
+      "volume_mm3": 3112.5823055906762,
       "bounds_mm": [
         -78.0,
         -14.0,
@@ -219,11 +224,11 @@
       "stl": {
         "triangles": 448,
         "nonmanifold_edges": 0,
-        "signed_volume_mm3": 3008.420015658805
+        "signed_volume_mm3": 3112.614783246401
       }
     },
     "L/04_corner": {
-      "volume_mm3": 11897.880560024068,
+      "volume_mm3": 11930.251530726664,
       "bounds_mm": [
         -76.0,
         -24.0,
@@ -235,11 +240,11 @@
       "stl": {
         "triangles": 1708,
         "nonmanifold_edges": 0,
-        "signed_volume_mm3": 11898.08460075799
+        "signed_volume_mm3": 11930.436482213001
       }
     },
     "L/05_vertical_rail_190": {
-      "volume_mm3": 4548.382748764807,
+      "volume_mm3": 4755.782305590677,
       "bounds_mm": [
         -63.0,
         -28.0,
@@ -251,11 +256,11 @@
       "stl": {
         "triangles": 448,
         "nonmanifold_edges": 0,
-        "signed_volume_mm3": 4548.420007671594
+        "signed_volume_mm3": 4755.814790667999
       }
     },
     "L/06_ribbed_depth_carriage": {
-      "volume_mm3": 17523.41871596804,
+      "volume_mm3": 17647.053647351677,
       "bounds_mm": [
         -80.0,
         -38.0,
@@ -267,11 +272,11 @@
       "stl": {
         "triangles": 1344,
         "nonmanifold_edges": 0,
-        "signed_volume_mm3": 17523.567366034793
+        "signed_volume_mm3": 17647.18670468502
       }
     },
     "L/07_cross_slide_carriage": {
-      "volume_mm3": 13911.07357775765,
+      "volume_mm3": 14342.112656200794,
       "bounds_mm": [
         -86.0,
         -11.0,
@@ -283,11 +288,11 @@
       "stl": {
         "triangles": 3388,
         "nonmanifold_edges": 0,
-        "signed_volume_mm3": 13911.961748098624
+        "signed_volume_mm3": 14342.744068912863
       }
     },
     "L/08_sliding_target_flag": {
-      "volume_mm3": 2902.7827487648065,
+      "volume_mm3": 3021.3823055906746,
       "bounds_mm": [
         -122.0,
         -15.0,
@@ -299,11 +304,11 @@
       "stl": {
         "triangles": 472,
         "nonmanifold_edges": 0,
-        "signed_volume_mm3": 2902.8200307084016
+        "signed_volume_mm3": 3021.414797882001
       }
     },
     "L/05b_vertical_rail_240_OPTIONAL": {
-      "volume_mm3": 5648.382748764807,
+      "volume_mm3": 5915.782305590677,
       "bounds_mm": [
         -63.0,
         -28.0,
@@ -315,11 +320,11 @@
       "stl": {
         "triangles": 448,
         "nonmanifold_edges": 0,
-        "signed_volume_mm3": 5648.420007671595
+        "signed_volume_mm3": 5915.814790668019
       }
     },
     "COMMON/09_tap_test_coupon": {
-      "volume_mm3": 17745.495637590702,
+      "volume_mm3": 17820.347224155135,
       "bounds_mm": [
         0.0,
         0.0,
@@ -331,7 +336,7 @@
       "stl": {
         "triangles": 2556,
         "nonmanifold_edges": 0,
-        "signed_volume_mm3": 17745.933848941924
+        "signed_volume_mm3": 17820.740762229456
       }
     }
   },
@@ -471,11 +476,11 @@
           "receiver": "01_side_clamp_S50",
           "thread_engagement_mm": 8,
           "tip_to_back_margin_mm": null,
-          "head_gap_mm": 1.6,
+          "head_gap_mm": 3.4,
           "role": "pressure screw"
         }
       ],
-      "plastic_solid_mass_g": 78.01380065716776,
+      "plastic_solid_mass_g": 79.08075082586743,
       "measured_fit_inputs_mm": {
         "clamped_span": 50,
         "vertical_height": 14
@@ -628,11 +633,11 @@
           "receiver": "01_side_clamp_S50",
           "thread_engagement_mm": 8,
           "tip_to_back_margin_mm": null,
-          "head_gap_mm": 1.6,
+          "head_gap_mm": 3.4,
           "role": "pressure screw"
         }
       ],
-      "plastic_solid_mass_g": 78.01380065716776,
+      "plastic_solid_mass_g": 79.08075082586743,
       "measured_fit_inputs_mm": {
         "clamped_span": 50,
         "vertical_height": 14
@@ -658,6 +663,7 @@
     "Prior reported 20 mm free depth does not establish side-face flatness",
     "Illustrative attachment height 120 mm is not measured; machine, bolt and load cell full shapes not modeled",
     "Physical fit, holding force, printed thread strength and synchronization accuracy not validated",
+    "Pilot 3.14 is user-specified male-thread minor diameter, not the usual 3.3 mm tap drill; verify tapping on coupon first",
     "Flat screw head diameter assumed >=7 mm; envelope diameter10 x height5 checked"
   ]
 }

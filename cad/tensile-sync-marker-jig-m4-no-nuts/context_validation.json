@@ -1,0 +1,64 @@
+{
+  "supplied_fixture_initial_intersection_checks": 42,
+  "supplied_fixture_initial_intersections": [],
+  "moving_vs_existing_lower_grip_tested_travel_mm": [
+    0,
+    2,
+    5,
+    10,
+    20
+  ],
+  "assembly_roundtrip_solid_counts": {
+    "assembly_moving": 6,
+    "assembly_with_supplied_grips_REFERENCE": 15
+  },
+  "stl": {
+    "02_horizontal_bar.stl": {
+      "triangles": 448,
+      "nonmanifold_edges": 0,
+      "signed_volume_mm3": 2468.4200156587995
+    },
+    "03_corner_carriage.stl": {
+      "triangles": 1708,
+      "nonmanifold_edges": 0,
+      "signed_volume_mm3": 11898.084600757986
+    },
+    "04_vertical_rail_180.stl": {
+      "triangles": 448,
+      "nonmanifold_edges": 0,
+      "signed_volume_mm3": 4328.420007671599
+    },
+    "01_strap_mount.stl": {
+      "triangles": 940,
+      "nonmanifold_edges": 0,
+      "signed_volume_mm3": 12949.042280469985
+    },
+    "07_target_arm_R.stl": {
+      "triangles": 900,
+      "nonmanifold_edges": 0,
+      "signed_volume_mm3": 3729.4708404366015
+    },
+    "04b_vertical_rail_240_optional.stl": {
+      "triangles": 448,
+      "nonmanifold_edges": 0,
+      "signed_volume_mm3": 5648.420007671602
+    },
+    "06_depth_carriage_R.stl": {
+      "triangles": 1328,
+      "nonmanifold_edges": 0,
+      "signed_volume_mm3": 11071.777347893192
+    },
+    "08_M4_fit_and_tap_coupon.stl": {
+      "triangles": 2556,
+      "nonmanifold_edges": 0,
+      "signed_volume_mm3": 21295.12061873031
+    }
+  },
+  "sample_clearance_at_initial_pose_mm": 1.9500000000000002,
+  "limits": [
+    "Moving machine mount and other machine hardware not dimensionally verified",
+    "Nominal 22 mm grip opening and 35 mm specimen assumed for context",
+    "Grip-context STEP omits hardware; separate M4 reference STEP includes screw envelopes",
+    "Physical fit, stiffness and motion have not been tested"
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "screw_count": 10,
+  "length_12mm_count": 8,
+  "length_16mm_count": 2,
+  "fixed_reference": "existing lower grip with applied label",
+  "nuts": 0,
+  "metal_inserts": 0,
+  "washers": 0,
+  "tap_specification": "M4x0.7, post-print tapping required",
+  "receiver_pilot_diameter_mm": 3.3,
+  "slot_width_mm": 4.5,
+  "joints": [
+    {
+      "module": "moving",
+      "group": "A",
+      "length_mm": 12,
+      "head_envelope_diameter_mm": 10,
+      "head_envelope_height_mm": 5,
+      "receiver": "strap_mount",
+      "receiver_engagement_mm": 8,
+      "receiver_back_margin_mm": 2,
+      "unintended_intersections": 0
+    },
+    {
+      "module": "moving",
+      "group": "A",
+      "length_mm": 12,
+      "head_envelope_diameter_mm": 10,
+      "head_envelope_height_mm": 5,
+      "receiver": "strap_mount",
+      "receiver_engagement_mm": 8,
+      "receiver_back_margin_mm": 2,
+      "unintended_intersections": 0
+    },
+    {
+      "module": "moving",
+      "group": "B",
+      "length_mm": 12,
+      "head_envelope_diameter_mm": 10,
+      "head_envelope_height_mm": 5,
+      "receiver": "corner",
+      "receiver_engagement_mm": 8,
+      "receiver_back_margin_mm": 2,
+      "unintended_intersections": 0
+    },
+    {
+      "module": "moving",
+      "group": "B",
+      "length_mm": 12,
+      "head_envelope_diameter_mm": 10,
+      "head_envelope_height_mm": 5,
+      "receiver": "corner",
+      "receiver_engagement_mm": 8,
+      "receiver_back_margin_mm": 2,
+      "unintended_intersections": 0
+    },
+    {
+      "module": "moving",
+      "group": "C",
+      "length_mm": 12,
+      "head_envelope_diameter_mm": 10,
+      "head_envelope_height_mm": 5,
+      "receiver": "corner",
+      "receiver_engagement_mm": 8,
+      "receiver_back_margin_mm": 2,
+      "unintended_intersections": 0
+    },
+    {
+      "module": "moving",
+      "group": "C",
+      "length_mm": 12,
+      "head_envelope_diameter_mm": 10,
+      "head_envelope_height_mm": 5,
+      "receiver": "corner",
+      "receiver_engagement_mm": 8,
+      "receiver_back_margin_mm": 2,
+      "unintended_intersections": 0
+    },
+    {
+      "module": "moving",
+      "group": "D",
+      "length_mm": 12,
+      "head_envelope_diameter_mm": 10,
+      "head_envelope_height_mm": 5,
+      "receiver": "depth_carriage",
+      "receiver_engagement_mm": 8,
+      "receiver_back_margin_mm": 2,
+      "unintended_intersections": 0
+    },
+    {
+      "module": "moving",
+      "group": "D",
+      "length_mm": 12,
+      "head_envelope_diameter_mm": 10,
+      "head_envelope_height_mm": 5,
+      "receiver": "depth_carriage",
+      "receiver_engagement_mm": 8,
+      "receiver_back_margin_mm": 2,
+      "unintended_intersections": 0
+    },
+    {
+      "module": "moving",
+      "group": "E",
+      "length_mm": 16,
+      "head_envelope_diameter_mm": 10,
+      "head_envelope_height_mm": 5,
+      "receiver": "target_arm",
+      "receiver_engagement_mm": 10,
+      "receiver_back_margin_mm": 2,
+      "unintended_intersections": 0
+    },
+    {
+      "module": "moving",
+      "group": "E",
+      "length_mm": 16,
+      "head_envelope_diameter_mm": 10,
+      "head_envelope_height_mm": 5,
+      "receiver": "target_arm",
+      "receiver_engagement_mm": 10,
+      "receiver_back_margin_mm": 2,
+      "unintended_intersections": 0
+    }
+  ],
+  "travel_test_mm": [
+    0,
+    2,
+    5,
+    10,
+    20
+  ],
+  "reference_assembly_solids": 16,
+  "thread_geometry_modeled": false,
+  "physical_strength_tested": false
+}

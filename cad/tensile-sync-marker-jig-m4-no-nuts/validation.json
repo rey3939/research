@@ -1,0 +1,201 @@
+{
+  "parameters": {
+    "clearance_d": 4.5,
+    "tap_pilot_d": 3.3,
+    "thread_pitch": 0.7,
+    "main_screw_length": 12.0,
+    "depth_screw_length": 16.0,
+    "head_diameter_check": 10.0,
+    "mount_w": 44.0,
+    "mount_h": 32.0,
+    "mount_plate_t": 10.0,
+    "mount_rear_clearance": 0.0,
+    "strap_slot_x": 17.0,
+    "strap_slot_z": 10.0,
+    "strap_slot_w": 4.0,
+    "strap_slot_h": 6.0,
+    "side_x": 40.0,
+    "depth_outboard_x": 52.0,
+    "moving_anchor_z": 120.0,
+    "moving_anchor_y": 0.0,
+    "moving_rail_length": 180.0,
+    "moving_rail_center_z": 60.0,
+    "moving_target_x": 4.2,
+    "moving_target_z": 3.3,
+    "target_front_y": -1.0,
+    "target_pad_w": 2.5,
+    "target_pad_h": 3.0,
+    "depth_slot_y_min": -30.0,
+    "depth_slot_y_max": 30.0,
+    "depth_screw_pitch": 10.0,
+    "target_face_offset_from_slider_center": -1.5,
+    "nominal_density_g_cm3": 1.24
+  },
+  "parts": {
+    "01_strap_mount": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 12948.940280012033,
+      "bounds_mm": [
+        -22.0,
+        -10.0,
+        -16.0,
+        22.0,
+        0.0,
+        16.0
+      ],
+      "bbox_mm": [
+        44.0,
+        10.0,
+        32.0
+      ]
+    },
+    "02_horizontal_bar": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 2468.382748764807,
+      "bounds_mm": [
+        -16.0,
+        -14.0,
+        -6.0,
+        60.0,
+        -10.0,
+        6.0
+      ],
+      "bbox_mm": [
+        76.0,
+        4.0,
+        12.0
+      ]
+    },
+    "03_corner_carriage": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 11897.880560024068,
+      "bounds_mm": [
+        22.0,
+        -24.0,
+        -17.0,
+        58.0,
+        -14.0,
+        17.0
+      ],
+      "bbox_mm": [
+        36.0,
+        10.0,
+        34.0
+      ]
+    },
+    "04_vertical_rail_180": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 4328.382748764807,
+      "bounds_mm": [
+        35.0,
+        -28.0,
+        -90.0,
+        45.0,
+        -24.0,
+        90.0
+      ],
+      "bbox_mm": [
+        10.0,
+        4.0,
+        180.0
+      ]
+    },
+    "04b_vertical_rail_240_optional": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 5648.382748764807,
+      "bounds_mm": [
+        35.0,
+        -28.0,
+        -120.0,
+        45.0,
+        -24.0,
+        120.0
+      ],
+      "bbox_mm": [
+        10.0,
+        4.0,
+        240.0
+      ]
+    },
+    "06_depth_carriage_R": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 11071.610090350447,
+      "bounds_mm": [
+        25.0,
+        -38.0,
+        -16.0,
+        56.0,
+        36.0,
+        16.0
+      ],
+      "bbox_mm": [
+        31.0,
+        74.0,
+        32.0
+      ]
+    },
+    "07_target_arm_R": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 3729.3483360144432,
+      "bounds_mm": [
+        2.95,
+        -11.0,
+        3.0,
+        60.0,
+        11.0,
+        15.0
+      ],
+      "bbox_mm": [
+        57.05,
+        22.0,
+        12.0
+      ]
+    },
+    "08_M4_fit_and_tap_coupon": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 21294.59476510885,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        66.0,
+        28.0,
+        12.0
+      ],
+      "bbox_mm": [
+        66.0,
+        28.0,
+        12.0
+      ]
+    }
+  },
+  "assemblies": {
+    "moving": {
+      "configuration": {
+        "anchor_y": 0.0,
+        "anchor_z": 120.0,
+        "rail_length": 180.0,
+        "rail_center_z": 60.0,
+        "tip_carriage_center_z": -1.2000000000000002,
+        "depth_slider_center_y_local": 0.5,
+        "target_center": [
+          4.2,
+          -1.0,
+          3.3
+        ]
+      },
+      "printed_parts": 6,
+      "printed_volume_cm3": 46.44454476393061,
+      "printed_mass_g_at_density": 57.59123550727396
+    }
+  },
+  "collision_checks": []
+}

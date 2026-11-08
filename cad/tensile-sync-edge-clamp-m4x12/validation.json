@@ -1,0 +1,655 @@
+{
+  "parameters": {
+    "measured_platform_thickness": 14.0,
+    "measured_free_insertion_depth": 20.0,
+    "required_free_width": 10.0,
+    "jaw_insertion": 14.0,
+    "throat_clearance_over_metal": 4.0,
+    "upper_jaw_bottom": 3.0,
+    "upper_jaw_thickness": 8.0,
+    "jaw_width": 10.0,
+    "pad_thickness": 2.0,
+    "tap_pilot_d": 3.3,
+    "thread_pitch": 0.7,
+    "clearance_d": 4.5,
+    "all_screw_lengths": 12.0,
+    "screw_head_min_assumed_d": 7.0,
+    "head_envelope_d": 10.0,
+    "head_envelope_h": 5.0,
+    "anchor_x_ILLUSTRATIVE": 20.0,
+    "anchor_z_ILLUSTRATIVE": 120.0,
+    "vertical_rail_length": 190.0,
+    "vertical_rail_center_z": 52.0,
+    "target_x": 4.2,
+    "target_z": 3.3,
+    "target_face_y": -1.0,
+    "cross_slide_tip_x_min": -48.0,
+    "cross_slide_tip_x_max": 28.0,
+    "depth_slider_y_min": -3.0,
+    "depth_slider_y_max": 45.0,
+    "density_g_cm3": 1.24
+  },
+  "parts": {
+    "R/01_clamp_body_T14": {
+      "volume_mm3": 11180.51639201685,
+      "bounds_mm": [
+        -22.0,
+        -10.0,
+        -23.0,
+        22.0,
+        14.0,
+        11.0
+      ],
+      "stl": {
+        "triangles": 1324,
+        "nonmanifold_edges": 0,
+        "signed_volume_mm3": 11180.659222658802
+      }
+    },
+    "R/02_protective_pad": {
+      "volume_mm3": 121.91787662265016,
+      "bounds_mm": [
+        -4.0,
+        5.0,
+        -1.0,
+        4.0,
+        13.0,
+        1.0
+      ],
+      "stl": {
+        "triangles": 432,
+        "nonmanifold_edges": 0,
+        "signed_volume_mm3": 121.92150167547992
+      }
+    },
+    "R/03_horizontal_bar": {
+      "volume_mm3": 2468.382748764807,
+      "bounds_mm": [
+        -16.0,
+        -14.0,
+        -6.0,
+        60.0,
+        -10.0,
+        6.0
+      ],
+      "stl": {
+        "triangles": 448,
+        "nonmanifold_edges": 0,
+        "signed_volume_mm3": 2468.4200156587995
+      }
+    },
+    "R/04_corner": {
+      "volume_mm3": 11897.880560024068,
+      "bounds_mm": [
+        22.0,
+        -24.0,
+        -17.0,
+        58.0,
+        -14.0,
+        17.0
+      ],
+      "stl": {
+        "triangles": 1708,
+        "nonmanifold_edges": 0,
+        "signed_volume_mm3": 11898.084600757986
+      }
+    },
+    "R/05_vertical_rail_190": {
+      "volume_mm3": 4548.382748764807,
+      "bounds_mm": [
+        35.0,
+        -28.0,
+        -95.0,
+        45.0,
+        -24.0,
+        95.0
+      ],
+      "stl": {
+        "triangles": 448,
+        "nonmanifold_edges": 0,
+        "signed_volume_mm3": 4548.420007671601
+      }
+    },
+    "R/06_ribbed_depth_carriage": {
+      "volume_mm3": 17523.418715968044,
+      "bounds_mm": [
+        25.0,
+        -38.0,
+        -16.0,
+        62.0,
+        56.0,
+        16.0
+      ],
+      "stl": {
+        "triangles": 1344,
+        "nonmanifold_edges": 0,
+        "signed_volume_mm3": 17523.56734006381
+      }
+    },
+    "R/07_cross_slide_carriage": {
+      "volume_mm3": 13911.073577757652,
+      "bounds_mm": [
+        40.0,
+        -11.0,
+        3.0,
+        68.0,
+        11.0,
+        28.0
+      ],
+      "stl": {
+        "triangles": 3388,
+        "nonmanifold_edges": 0,
+        "signed_volume_mm3": 13911.961749772641
+      }
+    },
+    "R/08_sliding_target_flag": {
+      "volume_mm3": 2902.7827487648065,
+      "bounds_mm": [
+        -1.25,
+        -15.0,
+        17.0,
+        122.0,
+        -11.0,
+        27.0
+      ],
+      "stl": {
+        "triangles": 472,
+        "nonmanifold_edges": 0,
+        "signed_volume_mm3": 2902.820006530006
+      }
+    },
+    "R/05b_vertical_rail_240_OPTIONAL": {
+      "volume_mm3": 5648.382748764807,
+      "bounds_mm": [
+        35.0,
+        -28.0,
+        -120.0,
+        45.0,
+        -24.0,
+        120.0
+      ],
+      "stl": {
+        "triangles": 448,
+        "nonmanifold_edges": 0,
+        "signed_volume_mm3": 5648.420007671602
+      }
+    },
+    "L/01_clamp_body_T14": {
+      "volume_mm3": 11180.51639201685,
+      "bounds_mm": [
+        -22.0,
+        -10.0,
+        -23.0,
+        22.0,
+        14.0,
+        11.0
+      ],
+      "stl": {
+        "triangles": 1324,
+        "nonmanifold_edges": 0,
+        "signed_volume_mm3": 11180.659222658784
+      }
+    },
+    "L/02_protective_pad": {
+      "volume_mm3": 121.91787662265016,
+      "bounds_mm": [
+        -4.0,
+        5.0,
+        -1.0,
+        4.0,
+        13.0,
+        1.0
+      ],
+      "stl": {
+        "triangles": 432,
+        "nonmanifold_edges": 0,
+        "signed_volume_mm3": 121.92150167547979
+      }
+    },
+    "L/03_horizontal_bar": {
+      "volume_mm3": 2468.382748764807,
+      "bounds_mm": [
+        -60.0,
+        -14.0,
+        -6.0,
+        16.0,
+        -10.0,
+        6.0
+      ],
+      "stl": {
+        "triangles": 448,
+        "nonmanifold_edges": 0,
+        "signed_volume_mm3": 2468.420015658805
+      }
+    },
+    "L/04_corner": {
+      "volume_mm3": 11897.880560024068,
+      "bounds_mm": [
+        -58.0,
+        -24.0,
+        -17.0,
+        -22.0,
+        -14.0,
+        17.0
+      ],
+      "stl": {
+        "triangles": 1708,
+        "nonmanifold_edges": 0,
+        "signed_volume_mm3": 11898.08460075799
+      }
+    },
+    "L/05_vertical_rail_190": {
+      "volume_mm3": 4548.382748764807,
+      "bounds_mm": [
+        -45.0,
+        -28.0,
+        -95.0,
+        -35.0,
+        -24.0,
+        95.0
+      ],
+      "stl": {
+        "triangles": 448,
+        "nonmanifold_edges": 0,
+        "signed_volume_mm3": 4548.420007671594
+      }
+    },
+    "L/06_ribbed_depth_carriage": {
+      "volume_mm3": 17523.418715968044,
+      "bounds_mm": [
+        -62.0,
+        -38.0,
+        -16.0,
+        -25.0,
+        56.0,
+        16.0
+      ],
+      "stl": {
+        "triangles": 1344,
+        "nonmanifold_edges": 0,
+        "signed_volume_mm3": 17523.567366034793
+      }
+    },
+    "L/07_cross_slide_carriage": {
+      "volume_mm3": 13911.073577757652,
+      "bounds_mm": [
+        -68.0,
+        -11.0,
+        3.0,
+        -40.0,
+        11.0,
+        28.0
+      ],
+      "stl": {
+        "triangles": 3388,
+        "nonmanifold_edges": 0,
+        "signed_volume_mm3": 13911.961748098624
+      }
+    },
+    "L/08_sliding_target_flag": {
+      "volume_mm3": 2902.7827487648065,
+      "bounds_mm": [
+        -122.0,
+        -15.0,
+        17.0,
+        1.25,
+        -11.0,
+        27.0
+      ],
+      "stl": {
+        "triangles": 472,
+        "nonmanifold_edges": 0,
+        "signed_volume_mm3": 2902.8200307084016
+      }
+    },
+    "L/05b_vertical_rail_240_OPTIONAL": {
+      "volume_mm3": 5648.382748764807,
+      "bounds_mm": [
+        -45.0,
+        -28.0,
+        -120.0,
+        -35.0,
+        -24.0,
+        120.0
+      ],
+      "stl": {
+        "triangles": 448,
+        "nonmanifold_edges": 0,
+        "signed_volume_mm3": 5648.420007671595
+      }
+    },
+    "COMMON/09_tap_test_coupon": {
+      "volume_mm3": 17745.495637590702,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        66.0,
+        28.0,
+        10.0
+      ],
+      "stl": {
+        "triangles": 2556,
+        "nonmanifold_edges": 0,
+        "signed_volume_mm3": 17745.933848941924
+      }
+    }
+  },
+  "installations": {
+    "R": {
+      "configuration": {
+        "side": "R",
+        "anchor_x_illustrative": 20.0,
+        "anchor_z_illustrative": 120.0,
+        "tip_carriage_z": -18.7,
+        "depth_slider_y": 14.0,
+        "cross_slide_translation_x": -15.8,
+        "target_center": [
+          4.2,
+          -1.0,
+          3.3
+        ]
+      },
+      "printed_parts": 8,
+      "M4x12_screws": 13,
+      "nuts": 0,
+      "washers": 0,
+      "straps": 0,
+      "tap_holes": 13,
+      "screw_details": [
+        {
+          "group": "A",
+          "length_mm": 12,
+          "receiver": "01_clamp_body_T14",
+          "thread_engagement_mm": 8,
+          "tip_to_back_margin_mm": 2,
+          "head_gap_mm": 0,
+          "role": "joint clamp"
+        },
+        {
+          "group": "A",
+          "length_mm": 12,
+          "receiver": "01_clamp_body_T14",
+          "thread_engagement_mm": 8,
+          "tip_to_back_margin_mm": 2,
+          "head_gap_mm": 0,
+          "role": "joint clamp"
+        },
+        {
+          "group": "B",
+          "length_mm": 12,
+          "receiver": "04_corner",
+          "thread_engagement_mm": 8,
+          "tip_to_back_margin_mm": 2,
+          "head_gap_mm": 0,
+          "role": "joint clamp"
+        },
+        {
+          "group": "B",
+          "length_mm": 12,
+          "receiver": "04_corner",
+          "thread_engagement_mm": 8,
+          "tip_to_back_margin_mm": 2,
+          "head_gap_mm": 0,
+          "role": "joint clamp"
+        },
+        {
+          "group": "C",
+          "length_mm": 12,
+          "receiver": "04_corner",
+          "thread_engagement_mm": 8,
+          "tip_to_back_margin_mm": 2,
+          "head_gap_mm": 0,
+          "role": "joint clamp"
+        },
+        {
+          "group": "C",
+          "length_mm": 12,
+          "receiver": "04_corner",
+          "thread_engagement_mm": 8,
+          "tip_to_back_margin_mm": 2,
+          "head_gap_mm": 0,
+          "role": "joint clamp"
+        },
+        {
+          "group": "D",
+          "length_mm": 12,
+          "receiver": "06_ribbed_depth_carriage",
+          "thread_engagement_mm": 8,
+          "tip_to_back_margin_mm": 2,
+          "head_gap_mm": 0,
+          "role": "joint clamp"
+        },
+        {
+          "group": "D",
+          "length_mm": 12,
+          "receiver": "06_ribbed_depth_carriage",
+          "thread_engagement_mm": 8,
+          "tip_to_back_margin_mm": 2,
+          "head_gap_mm": 0,
+          "role": "joint clamp"
+        },
+        {
+          "group": "E",
+          "length_mm": 12,
+          "receiver": "07_cross_slide_carriage",
+          "thread_engagement_mm": 8,
+          "tip_to_back_margin_mm": 2,
+          "head_gap_mm": 0,
+          "role": "joint clamp"
+        },
+        {
+          "group": "E",
+          "length_mm": 12,
+          "receiver": "07_cross_slide_carriage",
+          "thread_engagement_mm": 8,
+          "tip_to_back_margin_mm": 2,
+          "head_gap_mm": 0,
+          "role": "joint clamp"
+        },
+        {
+          "group": "F",
+          "length_mm": 12,
+          "receiver": "07_cross_slide_carriage",
+          "thread_engagement_mm": 8,
+          "tip_to_back_margin_mm": 2,
+          "head_gap_mm": 0,
+          "role": "joint clamp"
+        },
+        {
+          "group": "F",
+          "length_mm": 12,
+          "receiver": "07_cross_slide_carriage",
+          "thread_engagement_mm": 8,
+          "tip_to_back_margin_mm": 2,
+          "head_gap_mm": 0,
+          "role": "joint clamp"
+        },
+        {
+          "group": "P",
+          "length_mm": 12,
+          "receiver": "01_clamp_body_T14",
+          "thread_engagement_mm": 8,
+          "tip_to_back_margin_mm": null,
+          "head_gap_mm": 1.6,
+          "role": "pressure screw"
+        }
+      ],
+      "plastic_solid_mass_g": 80.04740065716777,
+      "measured_fit_inputs_mm": {
+        "thickness": 14,
+        "free_depth": 20
+      },
+      "unmeasured_required_free_width_mm": 10,
+      "tested_travel_mm": [
+        0,
+        2,
+        5,
+        10,
+        20
+      ],
+      "collisions": []
+    },
+    "L": {
+      "configuration": {
+        "side": "L",
+        "anchor_x_illustrative": -20.0,
+        "anchor_z_illustrative": 120.0,
+        "tip_carriage_z": -18.7,
+        "depth_slider_y": 14.0,
+        "cross_slide_translation_x": -15.8,
+        "target_center": [
+          -4.2,
+          -1.0,
+          3.3
+        ]
+      },
+      "printed_parts": 8,
+      "M4x12_screws": 13,
+      "nuts": 0,
+      "washers": 0,
+      "straps": 0,
+      "tap_holes": 13,
+      "screw_details": [
+        {
+          "group": "A",
+          "length_mm": 12,
+          "receiver": "01_clamp_body_T14",
+          "thread_engagement_mm": 8,
+          "tip_to_back_margin_mm": 2,
+          "head_gap_mm": 0,
+          "role": "joint clamp"
+        },
+        {
+          "group": "A",
+          "length_mm": 12,
+          "receiver": "01_clamp_body_T14",
+          "thread_engagement_mm": 8,
+          "tip_to_back_margin_mm": 2,
+          "head_gap_mm": 0,
+          "role": "joint clamp"
+        },
+        {
+          "group": "B",
+          "length_mm": 12,
+          "receiver": "04_corner",
+          "thread_engagement_mm": 8,
+          "tip_to_back_margin_mm": 2,
+          "head_gap_mm": 0,
+          "role": "joint clamp"
+        },
+        {
+          "group": "B",
+          "length_mm": 12,
+          "receiver": "04_corner",
+          "thread_engagement_mm": 8,
+          "tip_to_back_margin_mm": 2,
+          "head_gap_mm": 0,
+          "role": "joint clamp"
+        },
+        {
+          "group": "C",
+          "length_mm": 12,
+          "receiver": "04_corner",
+          "thread_engagement_mm": 8,
+          "tip_to_back_margin_mm": 2,
+          "head_gap_mm": 0,
+          "role": "joint clamp"
+        },
+        {
+          "group": "C",
+          "length_mm": 12,
+          "receiver": "04_corner",
+          "thread_engagement_mm": 8,
+          "tip_to_back_margin_mm": 2,
+          "head_gap_mm": 0,
+          "role": "joint clamp"
+        },
+        {
+          "group": "D",
+          "length_mm": 12,
+          "receiver": "06_ribbed_depth_carriage",
+          "thread_engagement_mm": 8,
+          "tip_to_back_margin_mm": 2,
+          "head_gap_mm": 0,
+          "role": "joint clamp"
+        },
+        {
+          "group": "D",
+          "length_mm": 12,
+          "receiver": "06_ribbed_depth_carriage",
+          "thread_engagement_mm": 8,
+          "tip_to_back_margin_mm": 2,
+          "head_gap_mm": 0,
+          "role": "joint clamp"
+        },
+        {
+          "group": "E",
+          "length_mm": 12,
+          "receiver": "07_cross_slide_carriage",
+          "thread_engagement_mm": 8,
+          "tip_to_back_margin_mm": 2,
+          "head_gap_mm": 0,
+          "role": "joint clamp"
+        },
+        {
+          "group": "E",
+          "length_mm": 12,
+          "receiver": "07_cross_slide_carriage",
+          "thread_engagement_mm": 8,
+          "tip_to_back_margin_mm": 2,
+          "head_gap_mm": 0,
+          "role": "joint clamp"
+        },
+        {
+          "group": "F",
+          "length_mm": 12,
+          "receiver": "07_cross_slide_carriage",
+          "thread_engagement_mm": 8,
+          "tip_to_back_margin_mm": 2,
+          "head_gap_mm": 0,
+          "role": "joint clamp"
+        },
+        {
+          "group": "F",
+          "length_mm": 12,
+          "receiver": "07_cross_slide_carriage",
+          "thread_engagement_mm": 8,
+          "tip_to_back_margin_mm": 2,
+          "head_gap_mm": 0,
+          "role": "joint clamp"
+        },
+        {
+          "group": "P",
+          "length_mm": 12,
+          "receiver": "01_clamp_body_T14",
+          "thread_engagement_mm": 8,
+          "tip_to_back_margin_mm": null,
+          "head_gap_mm": 1.6,
+          "role": "pressure screw"
+        }
+      ],
+      "plastic_solid_mass_g": 80.04740065716777,
+      "measured_fit_inputs_mm": {
+        "thickness": 14,
+        "free_depth": 20
+      },
+      "unmeasured_required_free_width_mm": 10,
+      "tested_travel_mm": [
+        0,
+        2,
+        5,
+        10,
+        20
+      ],
+      "collisions": []
+    }
+  },
+  "checks": [],
+  "limitations": [
+    "Only thickness 14 mm and available insertion depth 20 mm were measured; other machine geometry is not modeled",
+    "Illustrative lateral anchor 20 mm and height 120 mm are not measurements",
+    "Printed threads, strength, physical fit and metrological accuracy not validated",
+    "Actual screw-head diameter unmeasured; assume flat seat and diameter >=7 mm; clearance checked with diameter10 and height5"
+  ]
+}

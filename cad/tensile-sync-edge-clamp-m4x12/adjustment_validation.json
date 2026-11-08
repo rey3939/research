@@ -1,0 +1,60 @@
+{
+  "configurations": [
+    {
+      "cross_slide_x_mm": -48,
+      "depth_slider_y_mm": -3,
+      "self_intersections": 0,
+      "all_M4_engagement_mm": 8
+    },
+    {
+      "cross_slide_x_mm": -48,
+      "depth_slider_y_mm": 14,
+      "self_intersections": 0,
+      "all_M4_engagement_mm": 8
+    },
+    {
+      "cross_slide_x_mm": -48,
+      "depth_slider_y_mm": 45,
+      "self_intersections": 0,
+      "all_M4_engagement_mm": 8
+    },
+    {
+      "cross_slide_x_mm": -15.8,
+      "depth_slider_y_mm": -3,
+      "self_intersections": 0,
+      "all_M4_engagement_mm": 8
+    },
+    {
+      "cross_slide_x_mm": -15.8,
+      "depth_slider_y_mm": 14,
+      "self_intersections": 0,
+      "all_M4_engagement_mm": 8
+    },
+    {
+      "cross_slide_x_mm": -15.8,
+      "depth_slider_y_mm": 45,
+      "self_intersections": 0,
+      "all_M4_engagement_mm": 8
+    },
+    {
+      "cross_slide_x_mm": 28,
+      "depth_slider_y_mm": -3,
+      "self_intersections": 0,
+      "all_M4_engagement_mm": 8
+    },
+    {
+      "cross_slide_x_mm": 28,
+      "depth_slider_y_mm": 14,
+      "self_intersections": 0,
+      "all_M4_engagement_mm": 8
+    },
+    {
+      "cross_slide_x_mm": 28,
+      "depth_slider_y_mm": 45,
+      "self_intersections": 0,
+      "all_M4_engagement_mm": 8
+    }
+  ],
+  "machine_clearance_included": false,
+  "sample_contact_included": false
+}

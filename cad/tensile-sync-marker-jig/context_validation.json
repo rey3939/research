@@ -1,0 +1,86 @@
+{
+  "supplied_fixture_initial_intersection_checks": 60,
+  "supplied_fixture_initial_intersections": [],
+  "moving_vs_fixed_tested_travel_mm": [
+    0,
+    2,
+    5,
+    10,
+    20
+  ],
+  "assembly_roundtrip_solid_counts": {
+    "assembly_moving": 6,
+    "assembly_fixed": 6,
+    "assembly_both": 12,
+    "assembly_with_supplied_grips_REFERENCE": 19
+  },
+  "stl": {
+    "05b_vertical_rail_120_optional.stl": {
+      "triangles": 448,
+      "nonmanifold_edges": 0,
+      "signed_volume_mm3": 3458.104452153203
+    },
+    "02_horizontal_bar.stl": {
+      "triangles": 448,
+      "nonmanifold_edges": 0,
+      "signed_volume_mm3": 2768.5044445208023
+    },
+    "03_corner_carriage.stl": {
+      "triangles": 1708,
+      "nonmanifold_edges": 0,
+      "signed_volume_mm3": 3934.8193294372013
+    },
+    "08_fastener_fit_coupon.stl": {
+      "triangles": 2628,
+      "nonmanifold_edges": 0,
+      "signed_volume_mm3": 8986.917424781159
+    },
+    "04_vertical_rail_180.stl": {
+      "triangles": 448,
+      "nonmanifold_edges": 0,
+      "signed_volume_mm3": 5042.104446927204
+    },
+    "01_strap_mount.stl": {
+      "triangles": 1004,
+      "nonmanifold_edges": 0,
+      "signed_volume_mm3": 10594.531595942013
+    },
+    "05_vertical_rail_90.stl": {
+      "triangles": 448,
+      "nonmanifold_edges": 0,
+      "signed_volume_mm3": 2666.1044521531967
+    },
+    "07_target_arm_R.stl": {
+      "triangles": 900,
+      "nonmanifold_edges": 0,
+      "signed_volume_mm3": 940.1772370050018
+    },
+    "04b_vertical_rail_240_optional.stl": {
+      "triangles": 448,
+      "nonmanifold_edges": 0,
+      "signed_volume_mm3": 6626.104446927218
+    },
+    "06_depth_carriage_R.stl": {
+      "triangles": 1320,
+      "nonmanifold_edges": 0,
+      "signed_volume_mm3": 5555.092471408814
+    },
+    "06_depth_carriage_L.stl": {
+      "triangles": 1320,
+      "nonmanifold_edges": 0,
+      "signed_volume_mm3": 5555.092471408805
+    },
+    "07_target_arm_L.stl": {
+      "triangles": 900,
+      "nonmanifold_edges": 0,
+      "signed_volume_mm3": 940.1772409403993
+    }
+  },
+  "sample_clearance_at_initial_pose_mm": 1.9500000000000002,
+  "limits": [
+    "Moving machine mount and other machine hardware not dimensionally verified",
+    "Nominal 22 mm grip opening and 35 mm specimen assumed for context",
+    "Fasteners and straps not represented in STEP",
+    "Physical fit, stiffness and motion have not been tested"
+  ]
+}

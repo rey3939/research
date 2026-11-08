@@ -14,6 +14,8 @@
     "strap_slot_z": 10.0,
     "strap_slot_w": 4.0,
     "strap_slot_h": 6.0,
+    "strap_rear_channel_depth": 2.0,
+    "strap_rear_channel_width": 6.4,
     "side_x": 40.0,
     "depth_outboard_x": 52.0,
     "moving_anchor_z": 120.0,
@@ -35,7 +37,7 @@
     "01_strap_mount": {
       "valid": true,
       "solids": 1,
-      "volume_mm3": 12948.940280012033,
+      "volume_mm3": 12782.540280012036,
       "bounds_mm": [
         -22.0,
         -10.0,
@@ -193,8 +195,8 @@
         ]
       },
       "printed_parts": 6,
-      "printed_volume_cm3": 46.44454476393061,
-      "printed_mass_g_at_density": 57.59123550727396
+      "printed_volume_cm3": 46.278144763930605,
+      "printed_mass_g_at_density": 57.38489950727395
     }
   },
   "collision_checks": []

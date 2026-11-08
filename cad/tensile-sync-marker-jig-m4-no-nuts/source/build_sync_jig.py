@@ -15,6 +15,7 @@ P={
  'main_screw_length':12.0,'depth_screw_length':16.0,'head_diameter_check':10.0,
  'mount_w':44.0,'mount_h':32.0,'mount_plate_t':10.0,'mount_rear_clearance':0.0,
  'strap_slot_x':17.0,'strap_slot_z':10.0,'strap_slot_w':4.0,'strap_slot_h':6.0,
+ 'strap_rear_channel_depth':2.0,'strap_rear_channel_width':6.4,
  'side_x':40.0,'depth_outboard_x':52.0,
  'moving_anchor_z':120.0,'moving_anchor_y':0.0,
  'moving_rail_length':180.0,'moving_rail_center_z':60.0,
@@ -45,6 +46,10 @@ def strap_mount():
  # Solid 10 mm receiver with through pilot holes, tapped after printing.
  s=box(-22,22,-10,0,-16,16)
  cuts=[box(x-2,x+2,-11,1,z-3,z+3) for x in [-17,17] for z in [-10,10]]
+ # Rear channels connect each strap slot to the side edge. They let the
+ # strap pass between the solid machine surface and mount without rocking it.
+ for z in [-10,10]:
+  for x0,x1 in [(-23,-15),(15,23)]:cuts.append(box(x0,x1,-2,.1,z-3.2,z+3.2))
  cuts += [cyl_y(x,0,1.65,-11,1) for x in [-9,9]]
  return cut(s,cuts)
 def horizontal_bar():

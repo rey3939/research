@@ -29,9 +29,9 @@
       "signed_volume_mm3": 4328.420007671599
     },
     "01_strap_mount.stl": {
-      "triangles": 940,
+      "triangles": 1004,
       "nonmanifold_edges": 0,
-      "signed_volume_mm3": 12949.042280469985
+      "signed_volume_mm3": 12782.642280469998
     },
     "07_target_arm_R.stl": {
       "triangles": 900,

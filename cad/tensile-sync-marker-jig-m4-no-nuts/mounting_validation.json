@@ -1,0 +1,21 @@
+{
+  "band_clearance_checks": [
+    {
+      "band_center_z_mm": -10,
+      "envelope_width_mm": 4.8,
+      "envelope_thickness_mm": 1.5,
+      "intersections_with_mount": 0,
+      "intersections_with_holder_and_M4_screws": 0
+    },
+    {
+      "band_center_z_mm": 10,
+      "envelope_width_mm": 4.8,
+      "envelope_thickness_mm": 1.5,
+      "intersections_with_mount": 0,
+      "intersections_with_holder_and_M4_screws": 0
+    }
+  ],
+  "rear_channel_depth_mm": 2,
+  "rear_channel_width_mm": 6.4,
+  "actual_machine_wrap_access_verified": false
+}

@@ -13,6 +13,8 @@
   "strap_slot_z": 10.0,
   "strap_slot_w": 4.0,
   "strap_slot_h": 6.0,
+  "strap_rear_channel_depth": 2.0,
+  "strap_rear_channel_width": 6.4,
   "side_x": 40.0,
   "depth_outboard_x": 52.0,
   "moving_anchor_z": 120.0,

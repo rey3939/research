@@ -1,0 +1,21 @@
+{
+  "slides": 1,
+  "native_objects": 123,
+  "textboxes": 33,
+  "pictures": 0,
+  "layout_issues": [],
+  "bytes": 42494,
+  "comparison": "equal curvature; different thickness",
+  "hypothesis": "strain-related additional particle rotation relative to matrix",
+  "merged_pdf": {
+    "pages": 48,
+    "changed_page": 16,
+    "other_pages_text_and_dimensions_unchanged": true,
+    "render_comparison_pages": 47,
+    "render_size_px": [
+      960,
+      540
+    ],
+    "max_channel_delta_0_to_255": 1
+  }
+}

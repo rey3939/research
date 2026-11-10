@@ -61,7 +61,7 @@ for title,body in refs:
 text(p,M,y,W-2*M,'検証後の結論例（現時点の実証結果ではない）',13.3,True,color=TEAL);y+=29
 y=text(p,M,y,W-2*M,'「本実験条件では、実測形状と無変形時に校正した磁化を用いたモデルが、センサ距離を変更した場合の磁場と非線形性の変化を再現した。したがって、観測した位置依存性は幾何学的な磁場変化で説明できる。」',11.2)+19
 text(p,M,y,W-2*M,'アクセス設定の状況',12.5,True,color=TEAL);y+=25
-y=text(p,M,y,W-2*M,'検索・原著確認のため、Crossref、OpenAlex、PMC、Nature、ScienceDirect、AIPの6サイトを許可する設定案を保存済みです。現在は未反映で、環境設定での保存・公開待ちです。',10.7)+17
+y=text(p,M,y,W-2*M,'検索・原著確認のため、Crossref、OpenAlex、PMC、Nature、ScienceDirect、AIPの6サイトを許可する設定案を保存済みです。現在は実行環境に未反映で、環境設定で設定案の確認・反映待ちです。',10.7)+17
 text(p,M,y,W-2*M,'原著を確認後、適用条件・材料・形状・観測距離を照合して採用文献を絞ります。論文の一般的な法則は、自分の条件で検証して初めて今回の考察の根拠になります。',10.7)
 assert not issues,issues
 assert len(doc)==5

@@ -1,0 +1,50 @@
+{
+  "observed_sensitivity": {
+    "t1_mm": 1,
+    "S1_mT_per_mm": 0.097,
+    "t4_mm": 4,
+    "S4_mT_per_mm": 0.478,
+    "S4_over_S1": 4.927835051546391,
+    "S1_per_t": 0.097,
+    "S4_per_t": 0.1195,
+    "S_per_t_difference_percent": 23.19587628865978
+  },
+  "distance_protocol": "initial surface-to-sensor gap fixed (user confirmed)",
+  "center_distance_difference_mm": 1.5,
+  "beam_example": {
+    "length_mm": 40.0,
+    "tip_deflection_mm": 4.0,
+    "conditions": "Euler-Bernoulli small-deflection cantilever, end transverse load; example uses earlier stated specimen length",
+    "values": [
+      {
+        "z_mm": 0,
+        "local_deflection_mm": 0.0,
+        "theta_rad": 0.0,
+        "theta_deg": 0.0,
+        "curvature_per_mm": 0.0075
+      },
+      {
+        "z_mm": 15,
+        "local_deflection_mm": 0.73828125,
+        "theta_rad": 0.09140625,
+        "theta_deg": 5.237192346117681,
+        "curvature_per_mm": 0.0046875
+      },
+      {
+        "z_mm": 35,
+        "local_deflection_mm": 3.25390625,
+        "theta_rad": 0.14765625,
+        "theta_deg": 8.46007994372856,
+        "curvature_per_mm": 0.0009375
+      },
+      {
+        "z_mm": 40,
+        "local_deflection_mm": 4.0,
+        "theta_rad": 0.15,
+        "theta_deg": 8.594366926962348,
+        "curvature_per_mm": 0.0
+      }
+    ]
+  },
+  "literature_status": "publisher/index access blocked; official Magpylib documentation and software citation inspected"
+}

@@ -1,0 +1,57 @@
+{
+  "checked_date": "2026-11-10",
+  "primary_article_full_text_review_complete": false,
+  "network_status": {
+    "publisher_and_index_access": "blocked_by_current_environment_policy",
+    "observed_spec_revision": "1",
+    "draft_saved": true,
+    "draft_applied_to_running_environment": false,
+    "proposed_domains": [
+      "api.crossref.org",
+      "api.openalex.org",
+      "pmc.ncbi.nlm.nih.gov",
+      "www.nature.com",
+      "www.sciencedirect.com",
+      "pubs.aip.org"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Magpylib official README",
+      "url": "https://raw.githubusercontent.com/magpylib/magpylib/main/README.md",
+      "status": "retrieved_and_inspected",
+      "supports": "Software citation metadata; not primary-article full text",
+      "article_citation_as_listed": "Michael Ortner and Lucas Gabriel Coliado Bandeira. Magpylib: A free Python package for magnetic field computation. SoftwareX 11, 100466 (2020).",
+      "article_url": "https://www.sciencedirect.com/science/article/pii/S2352711020300170",
+      "article_full_text_read": false
+    },
+    {
+      "title": "Magpylib classes documentation",
+      "url": "https://raw.githubusercontent.com/magpylib/magpylib/main/docs/_pages/user_guide/docs/docs_classes.md",
+      "status": "retrieved_and_inspected",
+      "supports": "Uniform magnetization and total moment relation; Dipole as far-field representation"
+    },
+    {
+      "title": "Magpylib cuboid field implementation",
+      "url": "https://raw.githubusercontent.com/magpylib/magpylib/main/src/magpylib/_src/fields/field_BH_cuboid.py",
+      "status": "retrieved_and_inspected",
+      "supports": "Finite cuboid field computation using surface magnetic charges; leads to original-paper candidates"
+    }
+  ],
+  "unverified_article_candidates": [
+    {
+      "citation": "Engel-Herbert and Hesjedal. Calculation of the magnetic stray field of a uniaxial magnetic domain. Journal of Applied Physics 97, 074504 (2005).",
+      "discovery_source": "Official Magpylib implementation and bibliography",
+      "publisher_metadata_verified": false,
+      "full_text_read": false,
+      "note": "Repository bibliography is a lead; publisher title, authors, volume and article number still require verification."
+    },
+    {
+      "citation": "Zhao et al. Mechanics of hard-magnetic soft materials. Journal of the Mechanics and Physics of Solids (2019).",
+      "discovery_source": "Background-knowledge candidate only",
+      "publisher_metadata_verified": false,
+      "full_text_read": false,
+      "note": "Not adopted as evidence. Constitutive magnetization transport and applicability require original-text review."
+    }
+  ]
+}

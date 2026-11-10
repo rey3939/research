@@ -1,0 +1,90 @@
+[
+  {
+    "offset_s": 16.512156000000004,
+    "nominal_area_mm2": 2,
+    "strain_range": [
+      0.005,
+      0.02
+    ],
+    "points": 18,
+    "reference_slope_MPa": 8.003692086760694,
+    "r2": 0.9797832939978498
+  },
+  {
+    "offset_s": 16.512156000000004,
+    "nominal_area_mm2": 2,
+    "strain_range": [
+      0.01,
+      0.03
+    ],
+    "points": 23,
+    "reference_slope_MPa": 8.155428516697967,
+    "r2": 0.9894915243226722
+  },
+  {
+    "offset_s": 16.512156000000004,
+    "nominal_area_mm2": 2,
+    "strain_range": [
+      0.02,
+      0.05
+    ],
+    "points": 34,
+    "reference_slope_MPa": 7.7917822012842635,
+    "r2": 0.9957513869313823
+  },
+  {
+    "offset_s": 16.512156000000004,
+    "nominal_area_mm2": 2,
+    "strain_range": [
+      0.05,
+      0.1
+    ],
+    "points": 60,
+    "reference_slope_MPa": 10.916827023663084,
+    "r2": 0.9984331289966786
+  },
+  {
+    "offset_s": 16.9340698194718,
+    "nominal_area_mm2": 2,
+    "strain_range": [
+      0.005,
+      0.02
+    ],
+    "points": 18,
+    "reference_slope_MPa": 8.08397755635938,
+    "r2": 0.9918952784503103
+  },
+  {
+    "offset_s": 16.9340698194718,
+    "nominal_area_mm2": 2,
+    "strain_range": [
+      0.01,
+      0.03
+    ],
+    "points": 23,
+    "reference_slope_MPa": 8.202307281453399,
+    "r2": 0.9915706182253012
+  },
+  {
+    "offset_s": 16.9340698194718,
+    "nominal_area_mm2": 2,
+    "strain_range": [
+      0.02,
+      0.05
+    ],
+    "points": 34,
+    "reference_slope_MPa": 7.707009173560506,
+    "r2": 0.9949029975897457
+  },
+  {
+    "offset_s": 16.9340698194718,
+    "nominal_area_mm2": 2,
+    "strain_range": [
+      0.05,
+      0.1
+    ],
+    "points": 60,
+    "reference_slope_MPa": 10.701013992863945,
+    "r2": 0.9980956234195689
+  }
+]

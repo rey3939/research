@@ -1,0 +1,12 @@
+{
+  "video_file": "VID_20261110_160901388.mp4",
+  "video_bytes": 545148149,
+  "video_sha256": "0d9eb6ed591fee5b6adbafb63ceb5054ef77ce6e014cec021b06e6db4d8b5e3d",
+  "csv_file": "pme_test.csv",
+  "csv_sha256": "bcc1b11fd4144d0f0005f1ffee27836c5f62f8dae7227721217d5378ec1f21a2",
+  "archive_parts": 26,
+  "sampled_every_source_frames": 6,
+  "sampled_frames": 695,
+  "frame_times": "original presentation timestamps (PTS)",
+  "raw_inputs_required_for_reanalysis": true
+}

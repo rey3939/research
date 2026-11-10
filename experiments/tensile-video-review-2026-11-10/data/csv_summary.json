@@ -1,0 +1,20 @@
+{
+  "rows": 542,
+  "duration_s": [
+    0.01,
+    65.34
+  ],
+  "median_interval_s": 0.1200000000000001,
+  "speed_mm_min": 9.970793137494603,
+  "time_displacement_r2": 0.9999999655285999,
+  "max_force_N": 4.075169563,
+  "peak_time_s": 48.01,
+  "peak_crosshead_mm": 7.939920329,
+  "largest_load_drop_window_s": [
+    48.85,
+    48.97
+  ],
+  "reference_area_mm2": 2.0,
+  "specimen_actual_dimensions_measured": false,
+  "reference_peak_engineering_stress_MPa": 2.0375847815
+}

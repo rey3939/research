@@ -1,0 +1,46 @@
+{
+  "method": "direct normalized cross correlation to original marker-region textures, with axial and transverse scale search; no camera-scale correction",
+  "initial_gauge_length_px": 600.1325893040793,
+  "initial_mid_gauge_width_px": 124.08459792439555,
+  "static_interval_s": [
+    3,
+    10
+  ],
+  "static_gauge_std_px": 0.16614007392598523,
+  "static_width_std_px": 0.50040347442106,
+  "static_gauge_range_px": 0.7856508422237312,
+  "static_width_range_px": 2.2125996633219387,
+  "reference_centers": {
+    "upper_mark": [
+      373.0,
+      940.0
+    ],
+    "lower_mark": [
+      367.0,
+      1540.0
+    ],
+    "upper_grip": [
+      375.0,
+      522.5
+    ],
+    "lower_grip": [
+      380.0,
+      1875.0
+    ]
+  },
+  "last_pre_gap_time_s": 65.272456,
+  "last_pre_gap_virtual_gauge_strain": 0.4934708748695302,
+  "max_reliable_evaluation_strain_for_report": 0.1,
+  "width_at_last_pre_gap_px": 121.75214485239704,
+  "specimen_actual_dimensions_measured": false,
+  "nominal_width_mm": 2,
+  "nominal_thickness_mm": 1,
+  "poisson_fit_sensitivity_minmax": [
+    0.31637677466145314,
+    0.40557472325712407
+  ],
+  "poisson_fit_sensitivity_valid_conditions": 8,
+  "poisson_fit_sensitivity_excluded_conditions": [
+    "w_s0.75_e0.6"
+  ]
+}

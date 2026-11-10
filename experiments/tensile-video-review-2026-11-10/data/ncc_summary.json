@@ -1,0 +1,31 @@
+{
+  "method": "direct normalized cross correlation to original marker-region textures, with axial and transverse scale search; no camera-scale correction",
+  "initial_gauge_length_px": 600.1325893040793,
+  "initial_mid_gauge_width_px": 124.08459792439555,
+  "static_interval_s": [
+    3,
+    10
+  ],
+  "static_gauge_std_px": 0.16614007392598523,
+  "static_width_std_px": 0.50040347442106,
+  "static_gauge_range_px": 0.7856508422237312,
+  "static_width_range_px": 2.2125996633219387,
+  "reference_centers": {
+    "upper_mark": [
+      373.0,
+      940.0
+    ],
+    "lower_mark": [
+      367.0,
+      1540.0
+    ],
+    "upper_grip": [
+      375.0,
+      522.5
+    ],
+    "lower_grip": [
+      380.0,
+      1875.0
+    ]
+  }
+}

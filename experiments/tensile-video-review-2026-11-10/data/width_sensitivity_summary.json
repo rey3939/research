@@ -1,0 +1,119 @@
+[
+  {
+    "width_definition": "w_s0.25_e0.4",
+    "initial_width_px": 126.62162931504241,
+    "static_width_std_px": 0.37751067807523203,
+    "strain_range": [
+      0.005,
+      0.05
+    ],
+    "points": 52,
+    "apparent_poisson_slope": 0.3501373163427394,
+    "r2": 0.7365739210588359,
+    "accepted_for_width_sensitivity_plot": true
+  },
+  {
+    "width_definition": "w_s0.25_e0.5",
+    "initial_width_px": 125.44492760357124,
+    "static_width_std_px": 0.30879433307791715,
+    "strain_range": [
+      0.005,
+      0.05
+    ],
+    "points": 52,
+    "apparent_poisson_slope": 0.3627176707994006,
+    "r2": 0.746148147672274,
+    "accepted_for_width_sensitivity_plot": true
+  },
+  {
+    "width_definition": "w_s0.25_e0.6",
+    "initial_width_px": 124.41204152101626,
+    "static_width_std_px": 0.27143898193104465,
+    "strain_range": [
+      0.005,
+      0.05
+    ],
+    "points": 52,
+    "apparent_poisson_slope": 0.3697021309771597,
+    "r2": 0.7352086258084768,
+    "accepted_for_width_sensitivity_plot": true
+  },
+  {
+    "width_definition": "w_s0.50_e0.4",
+    "initial_width_px": 125.33541297845271,
+    "static_width_std_px": 0.6634457660118255,
+    "strain_range": [
+      0.005,
+      0.05
+    ],
+    "points": 52,
+    "apparent_poisson_slope": 0.34502367245746823,
+    "r2": 0.56708416741348,
+    "accepted_for_width_sensitivity_plot": true
+  },
+  {
+    "width_definition": "w_s0.50_e0.5",
+    "initial_width_px": 123.67875779476888,
+    "static_width_std_px": 0.5210955290500822,
+    "strain_range": [
+      0.005,
+      0.05
+    ],
+    "points": 52,
+    "apparent_poisson_slope": 0.31637677466145314,
+    "r2": 0.7095139038944022,
+    "accepted_for_width_sensitivity_plot": true
+  },
+  {
+    "width_definition": "w_s0.50_e0.6",
+    "initial_width_px": 122.29571906329058,
+    "static_width_std_px": 0.4530114965261474,
+    "strain_range": [
+      0.005,
+      0.05
+    ],
+    "points": 52,
+    "apparent_poisson_slope": 0.3288819232059159,
+    "r2": 0.7516282501534473,
+    "accepted_for_width_sensitivity_plot": true
+  },
+  {
+    "width_definition": "w_s0.75_e0.4",
+    "initial_width_px": 126.8462623042738,
+    "static_width_std_px": 0.27775301900690735,
+    "strain_range": [
+      0.005,
+      0.05
+    ],
+    "points": 52,
+    "apparent_poisson_slope": 0.40557472325712407,
+    "r2": 0.8282823464470013,
+    "accepted_for_width_sensitivity_plot": true
+  },
+  {
+    "width_definition": "w_s0.75_e0.5",
+    "initial_width_px": 125.99976325809288,
+    "static_width_std_px": 0.26315257909452766,
+    "strain_range": [
+      0.005,
+      0.05
+    ],
+    "points": 52,
+    "apparent_poisson_slope": 0.38707337467180936,
+    "r2": 0.8109650748412178,
+    "accepted_for_width_sensitivity_plot": true
+  },
+  {
+    "width_definition": "w_s0.75_e0.6",
+    "initial_width_px": 125.16789066260722,
+    "static_width_std_px": 4.049036047001668,
+    "strain_range": [
+      0.005,
+      0.05
+    ],
+    "points": 52,
+    "apparent_poisson_slope": 0.36602060929472635,
+    "r2": 0.7902577217713406,
+    "accepted_for_width_sensitivity_plot": false
+  }
+]

@@ -1,0 +1,8 @@
+opencv-python-headless
+numpy
+pandas
+scipy
+matplotlib
+Pillow
+PyMuPDF
+fontTools

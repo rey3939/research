@@ -1,0 +1,18 @@
+{
+  "codec_name": "h264",
+  "width": 3840,
+  "height": 2160,
+  "r_frame_rate": "60/1",
+  "avg_frame_rate": "187650000/3121381",
+  "duration": "69.364022",
+  "nb_frames": "4170",
+  "pix_fmt": "yuv420p",
+  "format_duration": "69.376000",
+  "rotation": [
+    {
+      "side_data_type": "Display Matrix",
+      "displaymatrix": "\n00000000:            0       65536           0\n00000001:       -65536           0           0\n00000002:            0           0  1073741824\n",
+      "rotation": -90
+    }
+  ]
+}

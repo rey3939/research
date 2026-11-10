@@ -1,0 +1,15 @@
+{
+  "pages": 4,
+  "titles": [
+    "動画・CSVの確認結果（予備評価）",
+    "画像で見えたことと、追跡の定義",
+    "荷重・伸び・時刻の照合",
+    "幅の精度と参考計算・次回の準備"
+  ],
+  "layout_issues": [],
+  "pdf_bytes": 1872438,
+  "japanese_text_verified": true,
+  "specimen_dimensions_measured": false,
+  "reference_area_mm2": 2,
+  "reported_moduli_are_exploratory": true
+}

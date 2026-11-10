@@ -1,0 +1,22 @@
+{
+  "video_visible_gap_window_s": [
+    65.372256,
+    65.472056
+  ],
+  "csv_largest_drop_window_s": [
+    48.85,
+    48.97
+  ],
+  "rupture_offset_midpoint_s": 16.512156000000004,
+  "rupture_offset_envelope_s": [
+    16.402255999999994,
+    16.622055999999994
+  ],
+  "video_grip_motion_onset_fit_s": 17.16500000000034,
+  "csv_displacement_onset_fit_s": 0.23093018052853947,
+  "onset_offset_s": 16.9340698194718,
+  "onset_vs_rupture_offset_difference_s": 0.42191381947179707,
+  "video_grip_motion_speed_px_s": 10.112573211341365,
+  "onset_fit_rms_px": 0.7180580378179034,
+  "status": "approximate cross-check only; no common-clock trigger or upstream marker"
+}

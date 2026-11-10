@@ -1,0 +1,50 @@
+{
+  "images": [
+    "part_01",
+    "part_02",
+    "part_03",
+    "part_04",
+    "part_05",
+    "part_06",
+    "part_07",
+    "part_08",
+    "tap_01",
+    "tap_04",
+    "tap_06",
+    "tap_07",
+    "clamp_fit",
+    "A_exploded",
+    "A_done",
+    "B_exploded",
+    "B_done",
+    "C_exploded",
+    "C_done",
+    "E_exploded",
+    "E_done",
+    "F_exploded",
+    "F_done",
+    "D_exploded",
+    "D_done",
+    "complete",
+    "mounted_reference",
+    "adjust_lower"
+  ],
+  "side": "R",
+  "screw_groups": {
+    "A": 2,
+    "B": 2,
+    "C": 2,
+    "D": 2,
+    "E": 2,
+    "F": 2,
+    "P": 1
+  },
+  "tap_pilot_mm": 3.242,
+  "clearance_mm": 4.2,
+  "clamped_span_mm": 50,
+  "exploded_arrows": "screw insertion direction derived from head and shaft CAD centers",
+  "partial_rail_views": [
+    "C",
+    "D"
+  ]
+}

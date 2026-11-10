@@ -6,8 +6,9 @@
 
 ![50 mmの挟み方](views/mounting_direction.png)
 
+- [印刷後の組立手順書（図付きPDF・12ページ）](assembly-manual/assembly_manual_R_S50.pdf) / [ブラウザで読む](assembly-manual/README.md)
 - [取付方向・接触範囲の図（PDF）](mounting_direction.pdf)
-- [組立・印刷ガイド（PDF、4ページ）](assembly_guide.pdf)
+- [設計時の簡易ガイド（PDF、4ページ）](assembly_guide.pdf)
 - [R側の組立STEP](STEP/assembly_R.step) / [L側の組立STEP](STEP/assembly_L.step)
 - [50 mmの局所形状に取り付けたクランプ参考STEP](STEP/clamp_R_S50_REFERENCE.step)
 - [STEP・STL・図面一式ZIP](tensile_sync_side_clamp_S50_M4x12.zip)

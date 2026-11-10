@@ -1,0 +1,54 @@
+{
+  "pages": 12,
+  "titles": [
+    "組立手順書：部品をそろえる",
+    "1　受け側13穴にタップを立てる",
+    "2　01と02だけで取付けを確かめる",
+    "3　03を01へ取り付ける",
+    "4　04を03の先端へ取り付ける",
+    "5　05を04へ取り付ける",
+    "6　07を06へ取り付ける",
+    "7　08を07へ取り付ける",
+    "8　下部ユニットを05へ取り付ける",
+    "9　全体を実機へ取り付ける",
+    "10　目印の高さ・奥行き・横位置を合わせる",
+    "11　組立の最終確認・困ったとき"
+  ],
+  "layout_issues": [],
+  "side": "R",
+  "joints": {
+    "A": 2,
+    "B": 2,
+    "C": 2,
+    "E": 2,
+    "F": 2,
+    "D": 2,
+    "P": 1
+  },
+  "tap_holes": {
+    "01": 3,
+    "04": 4,
+    "06": 2,
+    "07": 4
+  },
+  "tap_pilot_mm": 3.242,
+  "through_slot_width_mm": 4.2,
+  "sequence": [
+    "tap",
+    "fit01+02",
+    "A",
+    "B",
+    "C",
+    "E",
+    "F",
+    "D",
+    "mountP",
+    "adjustDEF"
+  ],
+  "pdf_bytes": 1063937,
+  "actual_machine_assembly_verified": false,
+  "pdf_japanese_text_verified": true,
+  "design_source_sha256": "588f11c842fd78a1e2f30a57b4bc7e6f49c851c9a64230dcab73eb477790b405",
+  "render_mode": "orthographic CAD triangles with CPU z-buffer",
+  "cad_geometry_changed": false
+}

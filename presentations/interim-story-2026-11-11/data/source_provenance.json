@@ -1,0 +1,26 @@
+{
+  "source_filename": "中間審査会スライド_大橋怜倭.pdf",
+  "source_pages": 48,
+  "source_bytes": 2840709,
+  "source_sha256": "cc32d084e4203ffad0ad161534f9b34a4c93ac7d8d290948cd8d9d5731a4531f",
+  "rebuild_date_japan": "2026-11-11",
+  "requested_presentation_minutes": 10,
+  "user_confirmations": {
+    "distance_reference": "specimen_surface",
+    "three_measurements": "same_specimen_repeats",
+    "rotation_model": "matrix_rotation_followed_additional_particle_rotation_omitted",
+    "only_planned_model": "one_dimensional_following_model",
+    "comparison_goal": "qualitative_major_features",
+    "material_measurements_planned": [
+      "Young_modulus",
+      "Poisson_ratio"
+    ]
+  },
+  "observations_and_models": {
+    "experimental_points": "copied_source_plot_positions",
+    "source_csv_reanalysis": false,
+    "new_model_results_added": false,
+    "conceptual_diagrams": "schematic"
+  },
+  "source_pdf_modified": false
+}

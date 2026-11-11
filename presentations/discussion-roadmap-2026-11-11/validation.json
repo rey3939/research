@@ -1,0 +1,25 @@
+{
+  "pages": 8,
+  "titles": [
+    "考察を「説明できる」へ進める",
+    "2　Eとνを測る意義を明確にする",
+    "3　厚みの効果を磁気量と幾何に分ける",
+    "4　固定端・自由端の差を予測で検証する",
+    "5　低感度と「最適」の主張を確かめる",
+    "6　粒子追加回転と1次元近似を分ける",
+    "7　追加実験を重複なく組み合わせる",
+    "8　スライドの主張を検証と対応させる"
+  ],
+  "layout_issues": [],
+  "text_bounds_within_page": true,
+  "japanese_text_verified": true,
+  "pdf_bytes": 923969,
+  "source_slides": 12,
+  "same_specimen_three_repeats_confirmed": true,
+  "surface_distance_reference_confirmed": true,
+  "illustrative_theory_not_measurement": true,
+  "new_primary_article_full_text_reviewed": false,
+  "new_experiments_performed": false,
+  "formula_arithmetic_verified": true,
+  "source_character_font_coverage_verified": true
+}

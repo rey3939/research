@@ -1,0 +1,60 @@
+{
+  "date_japan": "2026-11-11",
+  "source_file": "研究目的.pptx",
+  "source_slide_count": 12,
+  "user_confirmed": {
+    "repeat_count": 3,
+    "repeat_type": "same_specimen_repeated_measurements",
+    "independent_specimen_count_per_thickness": null,
+    "sensor_distance_reference": "specimen_surface",
+    "omitted_rotation": "additional_particle_rotation_relative_to_matrix_only",
+    "planned_material_measurements": ["Young_modulus", "Poisson_ratio"]
+  },
+  "shown_experimental_conditions": {
+    "thickness_mm": [1, 2, 3, 4],
+    "sensor_z_mm": [-10, -5, 0, 5, 15, 35, 40],
+    "tip_displacement_mm": [0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4],
+    "magnetic_filler_volume_fraction": 0.30
+  },
+  "displayed_sensitivity_at_z15": {
+    "thickness_mm": [1, 2, 3, 4],
+    "sensitivity_magnitude_mT_per_mm": [0.097, 0.203, 0.333, 0.478],
+    "source": "page 5 embedded chart numeric labels",
+    "actual_dimensions_and_uncertainties_available": false
+  },
+  "displayed_design_candidates": [
+    {"thickness_mm": 4, "z_mm": 15, "sensitivity_mT_per_mm": 0.478, "R2": 0.998, "source_page": 9},
+    {"thickness_mm": 4, "z_mm": 35, "sensitivity_mT_per_mm": 2.348, "R2": 0.953, "source_page": 7}
+  ],
+  "observed_chart_pattern_without_precise_digitization": "t4 sensitivity and R2 decrease strongly from z35 to z40; t1-3 have high sensitivity at z40",
+  "slide_text_notes_discrepancy": {
+    "page": 6,
+    "body": "-5<=zs<=15; improved group t=2,3,4",
+    "notes": "0<=zs<=15; improved group t=4",
+    "raw_data_verification_pending": true
+  },
+  "theory_example_not_measured": {
+    "assumptions": "uniform linear Euler-Bernoulli cantilever, tip transverse force, prescribed tip displacement, constant E and b",
+    "length_mm": 40,
+    "tip_displacement_mm": 4,
+    "root_curvature_per_mm": 0.0075,
+    "surface_bending_strain_t1": 0.00375,
+    "surface_bending_strain_t4": 0.015,
+    "stiffness_ratio_t4_over_t1": 64,
+    "sensitivity_ratio_z15_t4_over_t1": 4.927835051546391,
+    "shape_independent_of_EI_at_same_tip_displacement": true,
+    "initial_center_distance_difference_t4_vs_t1_mm": 1.5
+  },
+  "proposed_geometry_test": {
+    "thickness_mm": 4,
+    "sensor_z_mm": [15, 35, 40],
+    "gap_condition_count": 2,
+    "displacement_level_count": 9,
+    "same_specimen_upward_repeat_count": 3,
+    "condition_points_if_all_new": 162,
+    "axes_recorded_simultaneously": 3,
+    "status": "proposed_not_performed"
+  },
+  "raw_bending_measurements_available_this_turn": false,
+  "new_primary_article_full_text_reviewed": false
+}

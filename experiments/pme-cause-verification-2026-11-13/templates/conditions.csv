@@ -1,0 +1,15 @@
+﻿condition_id,phase,pilot,t_nominal_mm,z_s_mm,z_actual_mm,d_nominal_mm,distance_mode,source_condition_exists,t_actual_mm,d_actual_mm,sample_id,reuse_accepted,note
+A1S,A,True,1,15,,10.0,surface,True,,,,,Nominal planning value only. For center matching use measured thicknesses; d_alt is provisional.
+A1C,A,True,1,15,,11.5,center,False,,,,,Nominal planning value only. For center matching use measured thicknesses; d_alt is provisional.
+A2S,A,False,2,15,,10.0,surface,True,,,,,Nominal planning value only. For center matching use measured thicknesses; d_alt is provisional.
+A2C,A,False,2,15,,11.0,center,False,,,,,Nominal planning value only. For center matching use measured thicknesses; d_alt is provisional.
+A3S,A,False,3,15,,10.0,surface,True,,,,,Nominal planning value only. For center matching use measured thicknesses; d_alt is provisional.
+A3C,A,False,3,15,,10.5,center,False,,,,,Nominal planning value only. For center matching use measured thicknesses; d_alt is provisional.
+A4S,A,True,4,15,,10.0,surface_and_center,True,,,,,Nominal planning value only. For center matching use measured thicknesses; d_alt is provisional.
+B0S,B,True,4,0,,10.0,surface,True,,,,,Nominal planning value only. For center matching use measured thicknesses; d_alt is provisional.
+B0D,B,True,4,0,,15.0,alternate_gap,False,,,,,Nominal planning value only. For center matching use measured thicknesses; d_alt is provisional.
+B15D,B,True,4,15,,15.0,alternate_gap,False,,,,,Nominal planning value only. For center matching use measured thicknesses; d_alt is provisional.
+C35S,C_optional,False,4,35,,10.0,surface,True,,,,,Nominal planning value only. For center matching use measured thicknesses; d_alt is provisional.
+C35D,C_optional,False,4,35,,15.0,alternate_gap,False,,,,,Nominal planning value only. For center matching use measured thicknesses; d_alt is provisional.
+C40S,C_optional,False,4,40,,10.0,surface,True,,,,,Nominal planning value only. For center matching use measured thicknesses; d_alt is provisional.
+C40D,C_optional,False,4,40,,15.0,alternate_gap,False,,,,,Nominal planning value only. For center matching use measured thicknesses; d_alt is provisional.

@@ -1,0 +1,52 @@
+﻿column_name,meaning_Japanese
+condition_id,条件ID。条件表と照合する
+phase,A=厚み、B=固定端側の線形性、C_optional=任意の自由端検証
+pilot,先行試行に使う条件
+source_condition_exists,元資料に同じ名目条件がある。生データを再利用できる保証ではない
+reuse_accepted,既存生データ・設定・履歴の確認結果を記入
+sample_id,試料を識別するID
+cycle,同じ試料で0～4 mmを曲げ直した曲線の番号
+step_type,analysis_point=9解析点、return_zero_check=除荷後の0 mm確認
+u_target_mm,先端変位の目標値。計画として記入済み
+u_actual_mm,写真や目盛で確認した実際の先端変位
+z_s_mm,固定端を原点とする計画のセンサ位置
+z_actual_mm,実際に設定した長手方向位置
+d_nominal_mm,表面から感磁中心への名目距離。未測定の計画値
+d_actual_mm,実際の表面距離
+sensor_orientation_id,軸と取付角度を記録した図や写真のID
+clock_time_JST,取得時刻。日本標準時で記録
+wait_s,位置を変えてから待った時間
+average_window_s,平均・標準偏差を計算した時間窓
+sample_rate_Hz,時系列の記録頻度
+sample_count,時間窓のサンプル数。独立試料数ではない
+temperature_C,温度
+raw_file,元の全時系列ファイルへの参照
+photo_file,条件・時刻と結び付いた写真名
+background_record_id,背景測定の記録ID
+record_type,試料の初期場または背景測定の種別
+repeat,同じ静的条件の読み取り番号。曲げ直し回数と区別
+t_nominal_mm,名目厚み。実測値ではない
+t_actual_mm,実測厚み
+t_1_mm,厚み測定位置1
+t_2_mm,厚み測定位置2
+t_3_mm,厚み測定位置3
+t_mean_mm,各試料の厚み平均
+width_mm,実測幅
+free_length_mm,実測自由長
+distance_mode,surface=表面一定、center=中心一定、alternate_gap=変更距離
+model_version,計算コードの版
+parameter_file,モデル入力を保存したファイル
+mesh_N,モデルの要素数
+penalty_parameter,先端拘束の係数
+actual_model_tip_mm,モデルで実際に実現した先端変位
+prediction_saved_JST,測定前に予測を保存した時刻
+remarks,欠測、ずれ、回復、除外等の理由
+Bx_mean_mT,x成分の絶対磁場の時間窓平均。差分前の値
+Bx_sd_mT,x成分の窓内標準偏差。平均の不確かさと同一視しない
+pred_Bx_mT,モデルによるx成分の絶対磁場予測。0 mmを引いた差分は別に計算
+By_mean_mT,y成分の絶対磁場の時間窓平均。差分前の値
+By_sd_mT,y成分の窓内標準偏差。平均の不確かさと同一視しない
+pred_By_mT,モデルによるy成分の絶対磁場予測。0 mmを引いた差分は別に計算
+Bz_mean_mT,z成分の絶対磁場の時間窓平均。差分前の値
+Bz_sd_mT,z成分の窓内標準偏差。平均の不確かさと同一視しない
+pred_Bz_mT,モデルによるz成分の絶対磁場予測。0 mmを引いた差分は別に計算

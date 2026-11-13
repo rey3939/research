@@ -1,0 +1,51 @@
+{
+  "date_JST": "2026-11-13",
+  "pages": 18,
+  "page_titles": [
+    "01　検証の全体像と到達点",
+    "02　距離と座標を定義する",
+    "03　装置・試料・記録を準備する",
+    "04　共通の測定手順を決める",
+    "05　予定モデルの計算を確認する",
+    "06　A-1：初期場から磁気量を決める",
+    "07　A-2：厚みと距離の対照測定",
+    "08　A-3：感度増加の要因を整理する",
+    "09　B-1：線形性について事前予測する",
+    "10　B-2：固定端側の距離変更を測る",
+    "11　B-3：線形性とノイズを分けて読む",
+    "12　C：自由端領域は次段階で検証する",
+    "13　E・ν測定の役割と実施条件",
+    "14　条件数と、実施順をまとめる",
+    "15　解析・不確かさ・判定の手順",
+    "16　実験当日のチェックリスト",
+    "17　記録票：1条件・1曲線",
+    "18　結果整理票と最終報告"
+  ],
+  "layout_issues": [],
+  "pdf_text_bounds_verified": true,
+  "japanese_text_searchable": true,
+  "source_font_coverage_verified": true,
+  "bytes": 1007582,
+  "new_measurements_included": false,
+  "model_predictions_computed": false,
+  "same_model_only": true,
+  "priority": [
+    "A_thickness_sensitivity",
+    "B_root_to_z15_linearity",
+    "C_free_end_secondary"
+  ],
+  "m_eff_status": "model_dependent_effective_parameter_not_independent_true_moment",
+  "plan_counts": {
+    "pilot_unique_conditions": 6,
+    "main_unique_conditions": 10,
+    "pilot_analysis_points": 162,
+    "main_analysis_points": 270,
+    "main_return_zero_checks": 30,
+    "full_with_C_analysis_points": 378
+  },
+  "condition_matrix_verified": true,
+  "csv_and_pdf_counts_consistent": true,
+  "no_fake_measurements_in_templates": true,
+  "template_zip_verified": true,
+  "visual_review": "18 pages reviewed in overview; core methods, equations, counts and printable record page inspected individually."
+}
